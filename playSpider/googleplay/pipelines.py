@@ -43,11 +43,11 @@ class GoogleplayPipeline(object):
         line = json.dumps(dict(item), ensure_ascii = False, encoding = 'utf8', indent = 4 ) + ','
         cate = dict(item)['category']
 
-        if not os.path.exists(cate+".json"):
-            with open(cate+".json", 'w') as f:
+        if not os.path.exists(cate.replace(" ","") + ".json"):
+            with open(cate.replace(" ","") + ".json", 'w') as f:
                 f.write("[\n")
 
-        with open(cate+".json", 'a') as f:
+        with open(cate.replace(" ","") + ".json", 'a') as f:
              f.write( line.encode('utf8') )
 
         return item

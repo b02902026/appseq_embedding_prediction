@@ -10,7 +10,7 @@ logging.log(logging.WARNING, "This is a warning")
 
 class QuotesSpider(scrapy.Spider):
     name = "ggspider"
-    start_urls=["https://play.google.com/store/apps"]
+    start_urls=["https://play.google.com/store/apps?hl=en"]
     test = "test"
 
     def parse(self,response):
@@ -20,12 +20,12 @@ class QuotesSpider(scrapy.Spider):
                 cat_name = cat.xpath('text()')[0].extract()
                 cat_url = "https://play.google.com" + cat.xpath('@href')[0].extract()
 
-                yield scrapy.Request(cat_url,meta={'cat':cat_name}, callback=self.parse_cat)
+                yield scrapy.Request(cat_url+"?hl=en",meta={'cat':cat_name}, callback=self.parse_cat)
 
     def parse_cat(self, response):
 
             for url in response.xpath('//a[@class="see-more play-button small id-track-click apps id-responsive-see-more"]'):
-                target = "https://play.google.com"+url.xpath("@href")[0].extract()
+                target = "https://play.google.com"+url.xpath("@href")[0].extract()+"?hl=en"
                 yield  scrapy.Request(
                     target,
                     meta ={"cat":response.meta["cat"]},
@@ -39,7 +39,7 @@ class QuotesSpider(scrapy.Spider):
             #print "LINK:", link
 
             yield scrapy.Request(
-                "https://play.google.com"+link,
+                "https://play.google.com"+link+"&hl=en",
                 meta = {"cat":response.meta["cat"]},
                 callback = self.parse_app
             )
@@ -53,7 +53,7 @@ class QuotesSpider(scrapy.Spider):
         description = "".join(description)
         name = response.xpath('//div[@class="id-app-title"]/text()')[0].extract().strip()
         yield scrapy.Request(
-            "https://play.google.com"+more,
+            "https://play.google.com"+more+"&hl=en",
             meta={"name":name, "d":description, "cat":response.meta["cat"]},
             callback=self.parse_sim
         )
@@ -65,15 +65,19 @@ class QuotesSpider(scrapy.Spider):
         myItem['category'] = response.meta["cat"]
         myItem['description'] = response.meta["d"]
         sim_dict = []
-        for app_obj in response.xpath('//div[@class="card no-rationale square-cover apps small"]/div[@class="card-content id-track-click id-track-impression"]')[:15]:
-            title = app_obj.xpath('div[@class="details"]/a[@class="title"]/text()')[0].extract()
+        try:
+            for app_obj in response.xpath('//div[@class="card no-rationale square-cover apps small"]/div[@class="card-content id-track-click id-track-impression"]')[:15]:
+                title = app_obj.xpath('div[@class="details"]/a[@class="title"]/text()')[0].extract()
             #description = app_obj.xpath('div[@class="details"]/div[@class="description"]/text()')[0].extract()
             #description = "".join(description)
             #print "title=",title.strip()," description=",description.strip()
             #myItem['title'] = title.strip()
             #myItem['description'] = description.strip()
             #sim_dict[title.strip()] = description.strip()
-            sim_dict.append(title.strip())
+                sim_dict.append(title.strip())
+
+        except:
+            pass
 
         myItem['similar_apps'] = sim_dict
 
