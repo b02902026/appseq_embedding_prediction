@@ -1,103 +1,270 @@
 [
 {
     "category": "Libraries & Demo", 
-    "description": "  Face Recognition application can start experimenting with face recognitio ", 
+    "description": "  Irish English Text-To-Speech Voice Caitlin from CereProc. ", 
     "similar_apps": [
-        "Face recognition", 
-        "Face Recognition", 
-        "Eye Localization", 
-        "Face Detection and Recognition", 
-        "Live Face Detection", 
-        "OpenCV Face Detection", 
-        "FaceDetection", 
-        "Face Recognition SDK Demo", 
-        "Cardboard", 
-        "BioID Facial Authenticator", 
-        "Cardboard Design Lab", 
-        "NVIDIA VR Viewer - Beta", 
-        "FD VR - Virtual App Launcher", 
-        "Cardboard VR 3D Environment", 
-        "Fish Schooling VR"
+        "Caitlin Irish TTS Voice", 
+        "Katherine US English TTS Voice", 
+        "William UK English TTS Voice", 
+        "Sarah UK English TTS Voice", 
+        "Heather Scottish TTS Voice", 
+        "Jess North English TTS Voice", 
+        "Hannah US English TTS Voice", 
+        "Kirsty Scottish TTS Voice", 
+        "Leopold Austrian TTS Voice", 
+        "Lauren UK English TTS Voice", 
+        "Nathan US English TTS Voice", 
+        "Isabella US English TTS Voice", 
+        "Ada Dutch TTS Voice", 
+        "Gudrun German TTS Voice", 
+        "Jack UK English TTS Voice", 
+        "Yuki Japanese TTS Voice", 
+        "Stuart Scottish TTS Voice", 
+        "Suzanne French TTS Voice", 
+        "Jordan US English TTS Voice", 
+        "TTS Utility", 
+        "Best Voices (SVOX Sampler)", 
+        "Idyacy Sexy French TTS Voice", 
+        "eSpeak", 
+        "Megan US English TTS Voice", 
+        "Idyacy Dodo Glasgow TTS Voice", 
+        "eSpeak TTS Engine - RedZoc", 
+        "Giles UK English TTS Voice", 
+        "Laurent French TTS Voice", 
+        "Alex German TTS Voice", 
+        "Sue Midlands English TTS Voice", 
+        "Gabriel Brazilian TTS voice", 
+        "Lúcia Portuguese TTS voice", 
+        "Idyacy Lancashire TTS Voice", 
+        "Sahibinin Sesi TTS", 
+        "VAJA Text-to-Speech Engine"
     ], 
-    "app_title": "Face Recognition"
+    "app_title": "Adam US English TTS Voice"
 },{
     "category": "Libraries & Demo", 
-    "description": "  PDF417 barcode scanning library (SDK) for your mobile app! ", 
+    "description": "  Block access to microphone and cut off spyware apps & analyze security threats. ", 
     "similar_apps": [
-        "PDF417 Barcode Scan Demo App", 
-        "DVRAddOnsLite"
+        "Microphone Block -Anti malware", 
+        "Camera Block - Spyware protect", 
+        "zControl", 
+        "Camera Block -Anti spy-malware"
     ], 
-    "app_title": "KViewQR"
+    "app_title": "Microphone Block -Anti spyware"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Beef recipes cookbook download free for android ", 
+    "description": "  Scottish Text-To-Speech Voice Heather from CereProc ", 
     "similar_apps": [
-        "Beef recipes", 
-        "Pasta recipes", 
-        "Potato recipes", 
-        "Cookie Recipes", 
-        "Chicken recipes", 
-        "Fish recipes", 
-        "Grill recipes", 
-        "Dessert Recipe Book", 
-        "Italian recipes"
+        "Heather Scottish TTS Voice", 
+        "Caitlin Irish TTS Voice", 
+        "William UK English TTS Voice", 
+        "Jess North English TTS Voice", 
+        "Katherine US English TTS Voice", 
+        "Sarah UK English TTS Voice", 
+        "Kirsty Scottish TTS Voice", 
+        "Lauren UK English TTS Voice", 
+        "Leopold Austrian TTS Voice", 
+        "Adam US English TTS Voice", 
+        "Idyacy Sexy French TTS Voice", 
+        "Ada Dutch TTS Voice", 
+        "Hannah US English TTS Voice", 
+        "Jordan US English TTS Voice", 
+        "Gudrun German TTS Voice", 
+        "Stuart Scottish TTS Voice", 
+        "Isabella US English TTS Voice", 
+        "Andy US English TTS Voice", 
+        "Megan US English TTS Voice", 
+        "TTS Utility", 
+        "Best Voices (SVOX Sampler)", 
+        "eSpeak TTS Engine - RedZoc", 
+        "Idyacy Dodo Glasgow TTS Voice", 
+        "Sahibinin Sesi TTS", 
+        "VAJA Text-to-Speech Engine"
     ], 
-    "app_title": "Curry recipes"
+    "app_title": "Yuki Japanese TTS Voice"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Insight Timer is the most popular free meditation app. ", 
+    "description": "  Hello Google Play ", 
     "similar_apps": [
-        "Insight Timer - Meditation App", 
-        "Relaxing tibetan bowls", 
-        "My Chakra Meditation", 
-        "MindBell", 
-        "Chakra Cleansing Binaural beat", 
-        "Chakra Meditation", 
-        "Chakra Meditation & Healing", 
-        "Chakras Opening", 
-        "Binaural Chakra Therapy", 
-        "Mantras for the Chakras Prof", 
-        "Chakra Opening-Spirituality", 
-        "Chakra Healing Music", 
-        "Chakra Test - heal your life", 
-        "My Chakra Meditation 2", 
-        "Chakra Meditation"
-    ], 
-    "app_title": "Tibetan Singing Bowls Chakra"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  This app will help you to create free space on your device by moving apps to SD ", 
-    "similar_apps": [
-        "Transfer From Phone To SD Card", 
-        "admo Duplicate OBB", 
-        "Good Patch and Compressed OBB", 
-        "Bad Patch OBB", 
-        "Custom SnackBar", 
-        "Bad Compressed OBB", 
-        "Sd cards Manager"
-    ], 
-    "app_title": "Move app to SD card (AppMgr)"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Download and enjoy the APP !!! ", 
-    "similar_apps": [
-        "Free Kingroot 2K17 Guide", 
-        "Sim unlocker - simulator", 
-        "Bluetooth+", 
-        "Ministro II", 
+        "Hello Google Play", 
         "Market Update Helper", 
-        "Wifi Connect", 
-        "Open Router Settings", 
-        "Wifi Password Hacker Simulator", 
-        "TP-LINK tpCamera", 
-        "Wifi Connecter Library", 
-        "726852970268543732938391855923", 
-        "Market Helper", 
-        "HDMI Reader", 
-        "Usb OTG Reader", 
-        "Sound Mixer DJ Guide"
+        "Android Update Checker", 
+        "Version for Play Store - Demo", 
+        "Popular Ringtones 2017 Free 🔥", 
+        "MX Player Codec (ARMv7 NEON)"
     ], 
-    "app_title": "Root All Devices - simulator"
+    "app_title": "HTC Service Pack"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  If you are a fan of toy nerf  guns, then this app is definitely for you! ", 
+    "similar_apps": [
+        "Toy Gun 2017", 
+        "iHoG-Gaming Pro", 
+        "Sniper PointBlank", 
+        "EvilNight Addon for MCPE 0.16", 
+        "Mods for Minecraft PE Free", 
+        "FD VR - Virtual App Launcher", 
+        "Cardboard", 
+        "Girl Skins for Minecraft PE"
+    ], 
+    "app_title": "Toyz Nerf Guns Collection"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  HentekProcam is a easy for IP cam and smart home APP interface for user. ", 
+    "similar_apps": [
+        "HentekProcam(Muti-Language)"
+    ], 
+    "app_title": "HentekProcam(VR)"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Get 30+ Ionic 2 UI screens and build your Ionic 2 /Angular 2 mobile app. ", 
+    "similar_apps": [
+        "Ionic 2 UI Theme - Yellow Dark", 
+        "Ionic UI Theme - Green Light", 
+        "Ionic UI Theme - Blue Light", 
+        "Ionic UI Theme - Purple Light", 
+        "Ionic test demo", 
+        "Big JSON in ionic app", 
+        "Ionic UI Theme - Yellow Dark", 
+        "Temple Chat for Ionic 2", 
+        "Quizionic 2", 
+        "Ionic UI Theme - Red Dark", 
+        "WordApp"
+    ], 
+    "app_title": "Syncfusion Ionic samples"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Only now Bjawalk enjoy Bajadded Turkish soap operas that have not been television channels ", 
+    "similar_apps": [
+        "", 
+        "Frequency Of Arabsat Channels"
+    ], 
+    "app_title": "مسلسلات تركية PRANK"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Fan Subway Surfers Walkthrough Application walkthrough help you easy to play. ", 
+    "similar_apps": [
+        "Fan Subway Surfers Walkthrough", 
+        "Guide For Game Surfers Subway"
+    ], 
+    "app_title": "New Subway Surfers Tips"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  HDMI Reader For TV ", 
+    "similar_apps": [
+        "HDMI Reader", 
+        "Hdmi Connect", 
+        "HDMI Reader Pro", 
+        "HDMI Reader Premium"
+    ], 
+    "app_title": "DVB-T Driver"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  New Dream League Soccer Tips ", 
+    "similar_apps": [
+        "New Dream League Soccer Tips", 
+        "Tips Dream League Soccer 2018", 
+        "Fan PES 2017 Walkthrough"
+    ], 
+    "app_title": "Tips Dream League Soccer 2016"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  To Do List animation ", 
+    "similar_apps": [
+        "To Do List"
+    ], 
+    "app_title": "JellyToolbar"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Download Now New Papas Cheeseria Go Guide and Enjoy ! ", 
+    "similar_apps": [
+        "Free MLB 9 Innings 17 Tip", 
+        "New Papas Cheeseria Go Guide", 
+        "Free Dynasty Warriors Guide", 
+        "Free Uber Driver App Guide", 
+        "Latest Just Dance 2017 Guide", 
+        "Latest Slugterra Slug It guide", 
+        "Latest Geometry Dash_lite Tips", 
+        "Latest Fifa 17 :League Tips", 
+        "Free Papa Louie To Go Tip"
+    ], 
+    "app_title": "Free MLB 9 Innings 17 Tip"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  HDMI Reader For TV ", 
+    "similar_apps": [
+        "HDMI Reader", 
+        "Hdmi Connect", 
+        "HDMI Reader Premium", 
+        "Usb OTG Reader Pro", 
+        "Usb OTG Reader", 
+        "usb OTG reader", 
+        "DVB-T Driver", 
+        "Usb Otg Helper (root)"
+    ], 
+    "app_title": "HDMI Reader Pro"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  MX Player Codec for ARMv7 NEON CPUs. ", 
+    "similar_apps": [
+        "MX Player Codec (ARMv7 NEON)", 
+        "MX Player Codec (ARMv7)", 
+        "MX Player Codec (ARMv6 VFP)", 
+        "MX Player Codec (Tegra3)", 
+        "MX Player Codec (ARMv5)", 
+        "MX Player Codec (ARMv6)", 
+        "ES Chromecast plugin", 
+        "ASUS AiCam", 
+        "All My... (Xposed Tweaks)", 
+        "Best ViMate Downloader guide", 
+        "Sound Mixer DJ Guide", 
+        "LIVE MAPS Guide", 
+        "Vide Made 2", 
+        "Version for Play Store - Demo", 
+        "Vitamio Plugin ARMv7", 
+        "أسرار البنات", 
+        "Wifi Connecter Library", 
+        "Face Recognition", 
+        "NVIDIA VR Viewer - Beta", 
+        "Popular Ringtones 2017 Free 🔥", 
+        "VR Camera,VR CAM", 
+        "Fish Schooling VR", 
+        "Cardboard", 
+        "SuperHero & Princess Kids 🇺🇸"
+    ], 
+    "app_title": "MX Player Codec (x86)"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  HDMI Reader For TV ", 
+    "similar_apps": [
+        "HDMI Reader", 
+        "[Open Source] Moving Button", 
+        "Code Lock Lock Screen", 
+        "[Open Source] Finest WebView", 
+        "OpenCV Manager"
+    ], 
+    "app_title": "HTML Source Code Viewer"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  VR Camera,follow your heart. ", 
+    "similar_apps": [
+        "VR Camera,VR CAM", 
+        "IP Tool", 
+        "FD VR - Virtual App Launcher", 
+        "Falcon IP Cam", 
+        "Cardboard", 
+        "EyeCloud", 
+        "Fish Schooling VR", 
+        "JCloud", 
+        "ViewR", 
+        "Tuscany Dive", 
+        "Fireworks VR Show on Cardboard", 
+        "Cardboard VR 3D Environment", 
+        "TP-LINK tpCamera", 
+        "Cardboard Design Lab", 
+        "LV360", 
+        "GPS LIVE MAP Guide"
+    ], 
+    "app_title": "IP Pro"
 },{
     "category": "Libraries & Demo", 
     "description": "  Welcome to the New Battle Simulator Tips Free guide. ", 
@@ -107,76 +274,6 @@
         "Popular Ringtones 2017 Free 🔥"
     ], 
     "app_title": "New Battle Simulator Tips 2017"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  1, the tea culture Overview", 
-    "similar_apps": [
-        "茶文化知识", 
-        "中秋节", 
-        "驾考通", 
-        "牛排制作指南", 
-        "Muscle", 
-        "走进成都", 
-        "健身工厂", 
-        "数字推理", 
-        "吉他五件事", 
-        "抉择杀手", 
-        "云南之旅", 
-        "柯基 Fans", 
-        "历史战役", 
-        "爽爽的贵阳，有点意思", 
-        "Fruit"
-    ], 
-    "app_title": "生活大百科"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Classical Music raise your spirituality ", 
-    "similar_apps": [
-        "Classical Music Mozart", 
-        "Mozart: Complete Works", 
-        "Wolfgang Amadeus Mozart Music", 
-        "Pregnancy Music - Mozart", 
-        "Mozart Music", 
-        "Piano Mozart", 
-        "All that Mozart", 
-        "Radio Mozart", 
-        "Mozart Symphonies", 
-        "Mozart Concertos", 
-        "Study Music 🎧 Memory Booster", 
-        "Best Classical Music Ringtones", 
-        "Play Mozart Lite", 
-        "Beethoven Symphony", 
-        "Radio Mozart"
-    ], 
-    "app_title": "Mozart Symphony"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Live maps Satellite view opens up new methods of staying in touch ", 
-    "similar_apps": [
-        "LIVE MAPS Guide", 
-        "Live Maps Gps", 
-        "Cardboard", 
-        "Cardboard Design Lab", 
-        "Hello Google Play", 
-        "Village for Google Cardboard", 
-        "GPS Navigation Satellite", 
-        "Lanterns for Google Cardboard", 
-        "Tuscany Dive", 
-        "FD VR - Virtual App Launcher", 
-        "Cardboard VR 3D Environment", 
-        "Fish Schooling VR", 
-        "NVIDIA VR Viewer - Beta", 
-        "VR Camera,VR CAM", 
-        "phone tracker - location"
-    ], 
-    "app_title": "GPS LIVE MAP Guide"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  light a world,light a life. ", 
-    "similar_apps": [
-        "Huawei NetEco App"
-    ], 
-    "app_title": "ActiBook"
 },{
     "category": "Libraries & Demo", 
     "description": "  Open your WLAN router settings fast and easy! ", 
@@ -195,147 +292,134 @@
         "HW Link", 
         "Hdmi Connect", 
         "LV360", 
-        "IP Pro"
+        "IP Pro", 
+        "IPEmotion App"
     ], 
     "app_title": "TP-LINK tpCamera"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Picture book series to make your own", 
+    "description": "  Live maps Satellite view opens up new methods of staying in touch ", 
     "similar_apps": [
-        "動物図鑑", 
-        "野鳥図鑑", 
-        "昆虫図鑑"
-    ], 
-    "app_title": "植物図鑑"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  OTG  READER PRO lets read and connect to USB flash drives and SUPPORT OTG CABLE. ", 
-    "similar_apps": [
-        "Usb OTG Reader Pro", 
-        "HDMI Reader", 
-        "usb OTG reader", 
-        "Hdmi Connect", 
-        "HDMI Reader Pro", 
-        "TP-LINK tpCamera", 
-        "Open Router Settings", 
-        "USB MIDI Logger", 
-        "Wifi Connect", 
-        "Wifi Password Hacker Simulator", 
-        "Wifi Connecter Library", 
-        "HDMI Reader Premium", 
-        "726852970268543732938391855923", 
+        "LIVE MAPS Guide", 
+        "Live Maps Gps", 
+        "Cardboard", 
+        "Cardboard Design Lab", 
+        "Hello Google Play", 
+        "Village for Google Cardboard", 
+        "GPS Navigation Satellite", 
+        "Lanterns for Google Cardboard", 
+        "FD VR - Virtual App Launcher", 
         "Cardboard VR 3D Environment", 
-        "USB Lab"
-    ], 
-    "app_title": "Usb OTG Reader"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  X5SW is an aircraft fuselage emission badge with wifi function, you can connect your phone, using a mobile phone to take pictures, video. ", 
-    "similar_apps": [
-        "SYMA-FPV", 
-        "SYMA GO", 
-        "DRONE FPV", 
-        "DRONE FPV+", 
-        "DRONE 3D", 
-        "SkyTech FPV", 
-        "SkyThunder RC FPV", 
-        "Ultradrone", 
-        "Drone GO", 
-        "Ultradrone+", 
-        "HAKTOYS FPV", 
+        "Fish Schooling VR", 
+        "Tuscany Dive", 
+        "NVIDIA VR Viewer - Beta", 
+        "VR Camera,VR CAM", 
         "ViewR", 
-        "ARDrone Flight", 
-        "IpSensorMan"
+        "phone tracker - location", 
+        "Fireworks VR Show on Cardboard", 
+        "Tuscany HD VR Cardobard", 
+        "VR Space Walk", 
+        "MAGMA Cardboard VR", 
+        "ASUS AiCam", 
+        "guide minecraft furniture", 
+        "MX Player Codec (ARMv7 NEON)", 
+        "EON Experience VR", 
+        "VR StarTrooper Arena Fly", 
+        "Face Recognition", 
+        "All My... (Xposed Tweaks)", 
+        "Locus - addon Map Tweak", 
+        "GyroDroid", 
+        "Moonwalk for Cardboard", 
+        "ST GPS Map", 
+        "CB Binoculars (Cardboard VR)", 
+        "MX Player Codec (ARMv7)", 
+        "Real Hacker Demo", 
+        "New Don't Stop Eighth Note Tip", 
+        "Gears", 
+        "Manatee Works Barcode Scanner", 
+        "Vide Made 2", 
+        "Cool Funny Ringtones 2017 😂", 
+        "IP Pro", 
+        "Best ViMate Downloader guide", 
+        "GPS Navigation that talks", 
+        "Plugin Notifications", 
+        "Cute & sweetnes Ringtones 2017"
     ], 
-    "app_title": "WIFI GO"
+    "app_title": "GPS LIVE MAP Guide"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Block access to microphone and cut off spyware apps & analyze security threats. ", 
+    "description": "  Granville QLDK webcam APP ", 
     "similar_apps": [
-        "Microphone Block -Anti spyware", 
-        "Camera Block - Spyware protect", 
-        "Camera Block -Anti spy-malware", 
-        "Paranoia: Protection from spy", 
-        "zControl"
-    ], 
-    "app_title": "Microphone Block -Anti malware"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  VR Camera,follow your heart. ", 
-    "similar_apps": [
+        "VSCAM", 
+        "Falcon IP Cam", 
+        "HDIPC360", 
+        "IP Pro", 
         "VR Camera,VR CAM", 
         "IP Tool", 
-        "FD VR - Virtual App Launcher", 
-        "Falcon IP Cam", 
-        "EyeCloud", 
-        "Cardboard", 
-        "Fish Schooling VR", 
-        "ViewR", 
-        "Tuscany Dive", 
-        "Fireworks VR Show on Cardboard", 
-        "Cardboard VR 3D Environment", 
-        "TP-LINK tpCamera", 
-        "Cardboard Design Lab", 
+        "IPCam Demo", 
         "LV360", 
-        "GPS LIVE MAP Guide"
+        "YIPC", 
+        "Merlin ipcam", 
+        "MAJESTIC IPCAM", 
+        "ViewR", 
+        "COOLCAMOOP", 
+        "MX Player Codec (ARMv7)", 
+        "Qt Plugin Demo by V-Play"
     ], 
-    "app_title": "IP Pro"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Yilan County Real Estate offers information about the query, there Nett login, land information, school district data and information inquiry land auction ", 
-    "similar_apps": [
-        "宜蘭縣不動產行動網"
-    ], 
-    "app_title": "158行動查詢圖台"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  A demo version of the Mobile Server dabyu. ", 
-    "similar_apps": [
-        "DaView Demo"
-    ], 
-    "app_title": "DWGSee -- DWG Viewer"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Experience virtual reality on your smartphone with Cardboard. ", 
-    "similar_apps": [
-        "Cardboard", 
-        "NVIDIA VR Viewer - Beta", 
-        "Fish Schooling VR", 
-        "Cardboard Design Lab", 
-        "VR Camera,VR CAM", 
-        "Cardboard VR 3D Environment", 
-        "Tuscany Dive", 
-        "Village for Google Cardboard", 
-        "Tuscany HD VR Cardobard", 
-        "VR tech", 
-        "Lanterns for Google Cardboard", 
-        "GPS LIVE MAP Guide", 
-        "Hello Google Play", 
-        "EON Experience VR", 
-        "LIVE MAPS Guide"
-    ], 
-    "app_title": "FD VR - Virtual App Launcher"
+    "app_title": "EyeCloud"
 },{
     "category": "Libraries & Demo", 
     "description": "  Classical Music raise your spirituality ", 
     "similar_apps": [
-        "Classical Music Beethoven", 
-        "Beethoven – Classical Music", 
+        "Classical Music Mozart", 
+        "Mozart: Complete Works", 
+        "Wolfgang Amadeus Mozart Music", 
+        "Pregnancy Music - Mozart", 
+        "Mozart Music", 
+        "Piano Mozart", 
+        "Radio Mozart", 
+        "All that Mozart", 
+        "Mozart Symphonies", 
+        "Mozart Concertos", 
+        "Study Music 🎧 Memory Booster", 
         "Best Classical Music Ringtones", 
-        "Best Piano Lessons Beethoven", 
-        "Beethoven Symphony 1 Free", 
-        "Beethoven Piano Sonatas", 
         "Symphony Music Player Reborn", 
-        "Beethoven Symphony 7", 
-        "اروع سيمفونيات بيتهوفن", 
-        "Piano Beethoven", 
-        "Mozart Symphony", 
-        "Notation Pad-Sheet Music Score", 
+        "Beethoven Symphony", 
+        "Play Mozart Lite", 
+        "Radio Mozart", 
+        "Little Mozart App", 
+        "The Best 100 Classical Music", 
         "Classical Music", 
-        "Ensemble Composer Pro", 
-        "Music Box Composer"
+        "Mozart in Hokkaido", 
+        "Musik Klasik Ibu Hamil & Janin", 
+        "Beethoven Symphony 7", 
+        "Best Classical Music Ringtones", 
+        "Classical Music", 
+        "Wolfgang", 
+        "Theme Of Mozart", 
+        "Music for studying", 
+        "Mozart's Friend", 
+        "Notation Pad-Sheet Music Score", 
+        "Bach symphony", 
+        "Classical Music Tchaikovsky", 
+        "Classical Mozart Collection", 
+        "Beethoven – Classical Music", 
+        "Mozart Musical Dice Game", 
+        "Chopin Classical Music", 
+        "Relaxing Classical Music Sound", 
+        "Classical Music Vivaldi", 
+        "Classical Music Radio", 
+        "HumOn - Simplest Music Maker", 
+        "らふおん! ~即興演奏で簡単作曲~", 
+        "Ensemble Composer", 
+        "Best Composer", 
+        "notate", 
+        "Electro Drum Pad", 
+        "Humming Composer", 
+        "EzMusiCreate - make BGM from 0", 
+        "Melorandum"
     ], 
-    "app_title": "Beethoven Symphony"
+    "app_title": "Mozart Symphony"
 },{
     "category": "Libraries & Demo", 
     "description": "  Wifi Connecter Library ", 
@@ -359,67 +443,107 @@
     "app_title": "Wifi Connect"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Experience virtual reality on your smartphone with Cardboard. ", 
+    "description": "  1, the tea culture Overview", 
     "similar_apps": [
-        "Cardboard", 
-        "NVIDIA VR Viewer - Beta", 
-        "FD VR - Virtual App Launcher", 
-        "GPS LIVE MAP Guide", 
-        "Hello Google Play", 
-        "Cardboard VR 3D Environment", 
-        "Fish Schooling VR", 
-        "Village for Google Cardboard", 
-        "Tuscany Dive", 
-        "LIVE MAPS Guide", 
-        "VR Camera,VR CAM", 
-        "Lanterns for Google Cardboard", 
-        "Tuscany HD VR Cardobard", 
-        "MAGMA Cardboard VR", 
-        "EON Experience VR"
+        "茶文化知识", 
+        "中秋节", 
+        "驾考通", 
+        "牛排制作指南", 
+        "Muscle", 
+        "数字推理", 
+        "走进成都", 
+        "吉他五件事", 
+        "健身工厂", 
+        "抉择杀手", 
+        "云南之旅", 
+        "爽爽的贵阳，有点意思", 
+        "柯基 Fans", 
+        "Fruit", 
+        "历史战役", 
+        "capacities of newborns", 
+        "健身小白", 
+        "品茶", 
+        "站桩", 
+        "焖面制作", 
+        "追风筝的狼", 
+        "如何品茶", 
+        "flowerlanguage", 
+        "ChineseTeaCulture", 
+        "study", 
+        "A型行为调查", 
+        "Study Jams", 
+        "他说", 
+        "省油小技巧", 
+        "PickPhone", 
+        "宿舍安全导航指南", 
+        "tomato omelet", 
+        "游泳小百科", 
+        "City Attractions", 
+        "初学游泳", 
+        "Studyjam", 
+        "健身入门", 
+        "Red Wine", 
+        "热干面", 
+        "玩转南昌", 
+        "道德经小讲", 
+        "糖尿病介绍", 
+        "中国象棋入门", 
+        "Nanjing", 
+        "计算机专业考研帮", 
+        "吃货指南", 
+        "举办活动的五个步骤", 
+        "失眠良医", 
+        "Cooking"
     ], 
-    "app_title": "Cardboard Design Lab"
+    "app_title": "生活大百科"
 },{
     "category": "Libraries & Demo", 
-    "description": "  MX Player Codec for ARMv7 NEON CPUs. ", 
+    "description": "  This app will help you to create free space on your device by moving apps to SD ", 
     "similar_apps": [
-        "MX Player Codec (ARMv7 NEON)", 
-        "MX Player Codec (ARMv7)", 
-        "MX Player Codec (ARMv6 VFP)", 
-        "MX Player Codec (Tegra3)", 
-        "MX Player Codec (ARMv6)", 
-        "MX Player Codec (ARMv5)", 
-        "ES Chromecast plugin", 
-        "ASUS AiCam", 
-        "All My... (Xposed Tweaks)", 
-        "Sound Mixer DJ Guide", 
-        "Best ViMate Downloader guide", 
-        "Vide Made 2", 
-        "LIVE MAPS Guide", 
-        "Version for Play Store - Demo", 
-        "Vitamio Plugin ARMv7"
+        "Transfer From Phone To SD Card", 
+        "admo Duplicate OBB", 
+        "Good Patch and Compressed OBB", 
+        "Bad Patch OBB", 
+        "Custom SnackBar", 
+        "Bad Compressed OBB", 
+        "Sd cards Manager"
     ], 
-    "app_title": "MX Player Codec (x86)"
+    "app_title": "Move app to SD card (AppMgr)"
 },{
     "category": "Libraries & Demo", 
-    "description": "  OTG support ", 
+    "description": "  light a world,light a life. ", 
     "similar_apps": [
-        "Usb OTG Reader", 
-        "HDMI Reader", 
-        "usb OTG reader", 
-        "HDMI Reader Pro", 
-        "Hdmi Connect", 
-        "HDMI Reader Premium", 
-        "USB MIDI Logger", 
-        "USB Lab", 
-        "Prolific PL2303 USB-GPIO", 
-        "Serial-USB ANE Tester", 
-        "ES Chromecast plugin", 
-        "CardTest", 
-        "CCID Reader Application Demo.", 
-        "PDF Plugin - Moon+ Reader", 
-        "UC232A USB-to-Serial Converter"
+        "Huawei NetEco App", 
+        "RDMP"
     ], 
-    "app_title": "Usb OTG Reader Pro"
+    "app_title": "ActiBook"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Block access to microphone and cut off spyware apps & analyze security threats. ", 
+    "similar_apps": [
+        "Microphone Block -Anti spyware", 
+        "Camera Block - Spyware protect", 
+        "Camera Block -Anti spy-malware", 
+        "Paranoia: Protection from spy", 
+        "zControl"
+    ], 
+    "app_title": "Microphone Block -Anti malware"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  A demo version of the Mobile Server dabyu. ", 
+    "similar_apps": [
+        "DaView Demo"
+    ], 
+    "app_title": "DWGSee -- DWG Viewer"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Picture book series to make your own", 
+    "similar_apps": [
+        "動物図鑑", 
+        "野鳥図鑑", 
+        "昆虫図鑑"
+    ], 
+    "app_title": "植物図鑑"
 },{
     "category": "Libraries & Demo", 
     "description": "  If you need to find coordinates for a location to enter in your GPS system ", 
@@ -438,85 +562,244 @@
         "MX Player Codec (ARMv6 VFP)", 
         "MX Player Codec (ARMv7)", 
         "MX Player Codec (Tegra3)", 
-        "MX Player Codec (ARMv6)"
+        "MX Player Codec (ARMv6)", 
+        "MX Player Codec (ARMv5)", 
+        "Fish Schooling VR", 
+        "NVIDIA VR Viewer - Beta", 
+        "FD VR - Virtual App Launcher", 
+        "Cardboard VR 3D Environment", 
+        "Tuscany Dive", 
+        "VR Camera,VR CAM", 
+        "Sound Mixer DJ Guide", 
+        "ES Chromecast plugin", 
+        "All My... (Xposed Tweaks)", 
+        "VR Space Walk", 
+        "ViewR", 
+        "Fireworks VR Show on Cardboard", 
+        "Tuscany HD VR Cardobard", 
+        "MAGMA Cardboard VR", 
+        "guide minecraft furniture", 
+        "Face Recognition", 
+        "ASUS AiCam", 
+        "MX Player Codec (x86)", 
+        "EON Experience VR", 
+        "YIPC", 
+        "Locus - addon Map Tweak", 
+        "VR StarTrooper Arena Fly", 
+        "GyroDroid", 
+        "Moonwalk for Cardboard", 
+        "New Cadillacs Dinosaurs Guide", 
+        "BLE SensorTag", 
+        "KDsafe", 
+        "أسرار البنات", 
+        "Version for Play Store - Demo", 
+        "Popular Ringtones 2017 Free 🔥", 
+        "Vitamio Plugin ARMv7", 
+        "Real Hacker Demo"
     ], 
     "app_title": "LIVE MAPS Guide"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Hello Google Play ", 
+    "description": "  Download and enjoy the APP !!! ", 
     "similar_apps": [
-        "Hello Google Play", 
+        "Free Kingroot 2K17 Guide", 
+        "Sim unlocker - simulator", 
+        "Bluetooth+", 
+        "Ministro II", 
         "Market Update Helper", 
+        "Wifi Connect", 
+        "Open Router Settings", 
+        "Wifi Password Hacker Simulator", 
+        "TP-LINK tpCamera", 
+        "Wifi Connecter Library", 
+        "Market Helper", 
+        "726852970268543732938391855923", 
+        "HDMI Reader", 
+        "Usb OTG Reader", 
+        "Sound Mixer DJ Guide", 
+        "IP Tool", 
+        "Check Your Root", 
         "Android Update Checker", 
-        "Version for Play Store - Demo", 
-        "Popular Ringtones 2017 Free 🔥", 
-        "MX Player Codec (ARMv7 NEON)"
+        "Hello Android Market", 
+        "Vcare（Update)", 
+        "Version for Play Store - Demo"
     ], 
-    "app_title": "HTC Service Pack"
+    "app_title": "Root All Devices - simulator"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Our company   WiFi camera can be used to achieve remote configuration camera. ", 
+    "description": "  Experience virtual reality on your smartphone with Cardboard. ", 
     "similar_apps": [
-        "LV360", 
-        "NCM"
-    ], 
-    "app_title": "V380s"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  If you are a fan of toy nerf  guns, then this app is definitely for you! ", 
-    "similar_apps": [
-        "Toy Gun 2017", 
-        "iHoG-Gaming Pro", 
-        "Sniper PointBlank", 
-        "EvilNight Addon for MCPE 0.16", 
-        "Mods for Minecraft PE Free", 
-        "FD VR - Virtual App Launcher", 
         "Cardboard", 
-        "Girl Skins for Minecraft PE"
+        "NVIDIA VR Viewer - Beta", 
+        "Fish Schooling VR", 
+        "Cardboard Design Lab", 
+        "VR Camera,VR CAM", 
+        "Cardboard VR 3D Environment", 
+        "Tuscany Dive", 
+        "Village for Google Cardboard", 
+        "Tuscany HD VR Cardobard", 
+        "VR tech", 
+        "GPS LIVE MAP Guide", 
+        "Lanterns for Google Cardboard", 
+        "Hello Google Play", 
+        "EON Experience VR", 
+        "LIVE MAPS Guide", 
+        "ViewR", 
+        "VR Space Walk", 
+        "MAGMA Cardboard VR", 
+        "Fireworks VR Show on Cardboard", 
+        "IP Pro", 
+        "VR StarTrooper Arena Fly", 
+        "ASUS AiCam", 
+        "guide minecraft furniture", 
+        "MX Player Codec (ARMv7 NEON)", 
+        "Face Recognition", 
+        "All My... (Xposed Tweaks)", 
+        "IP Tool", 
+        "GyroDroid", 
+        "Moonwalk for Cardboard", 
+        "CB Binoculars (Cardboard VR)", 
+        "MX Player Codec (ARMv7)", 
+        "Falcon IP Cam", 
+        "Real Hacker Demo", 
+        "New Don't Stop Eighth Note Tip", 
+        "Gears", 
+        "Manatee Works Barcode Scanner", 
+        "PolyLand VR", 
+        "VR Model of BMW i8 - Cardboard", 
+        "Paper3D (Cardboard)", 
+        "Toyz Nerf Guns Collection", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Cute & sweetnes Ringtones 2017"
     ], 
-    "app_title": "Toyz Nerf Guns Collection"
+    "app_title": "FD VR - Virtual App Launcher"
 },{
     "category": "Libraries & Demo", 
-    "description": "  MX Player Codec for ARMv7 NEON CPUs. ", 
+    "description": "  Yilan County Real Estate offers information about the query, there Nett login, land information, school district data and information inquiry land auction ", 
     "similar_apps": [
-        "MX Player Codec (ARMv7 NEON)", 
-        "MX Player Codec (ARMv7)", 
-        "MX Player Codec (ARMv6 VFP)", 
-        "MX Player Codec (ARMv5)", 
-        "MX Player Codec (Tegra3)", 
-        "MX Player Codec (x86)", 
-        "ES Chromecast plugin", 
-        "Sound Mixer DJ Guide", 
-        "LIVE MAPS Guide", 
-        "Vide Made 2", 
-        "Best ViMate Downloader guide", 
-        "All My... (Xposed Tweaks)", 
-        "Vitamio Plugin ARMv7", 
-        "أسرار البنات", 
-        "Version for Play Store - Demo"
+        "宜蘭縣不動產行動網"
     ], 
-    "app_title": "MX Player Codec (ARMv6)"
+    "app_title": "158行動查詢圖台"
 },{
     "category": "Libraries & Demo", 
-    "description": "  MX Player Codec for ARMv7 NEON CPUs. ", 
+    "description": "  X5SW is an aircraft fuselage emission badge with wifi function, you can connect your phone, using a mobile phone to take pictures, video. ", 
     "similar_apps": [
-        "MX Player Codec (ARMv7 NEON)", 
-        "MX Player Codec (ARMv6 VFP)", 
-        "MX Player Codec (ARMv7)", 
-        "MX Player Codec (ARMv6)", 
-        "MX Player Codec (Tegra3)", 
-        "MX Player Codec (x86)", 
-        "Vide Made 2", 
-        "Best ViMate Downloader guide", 
-        "ES Chromecast plugin", 
-        "Sound Mixer DJ Guide", 
-        "LIVE MAPS Guide", 
-        "All My... (Xposed Tweaks)", 
-        "Vitamio Plugin ARMv7", 
-        "أسرار البنات", 
-        "Version for Play Store - Demo"
+        "SYMA-FPV", 
+        "SYMA GO", 
+        "DRONE FPV", 
+        "DRONE FPV+", 
+        "DRONE 3D", 
+        "SkyTech FPV", 
+        "SkyThunder RC FPV", 
+        "Ultradrone", 
+        "Drone GO", 
+        "Ultradrone+", 
+        "HAKTOYS FPV", 
+        "ViewR", 
+        "ARDrone Flight", 
+        "IpSensorMan"
     ], 
-    "app_title": "MX Player Codec (ARMv5)"
+    "app_title": "WIFI GO"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  OTG  READER PRO lets read and connect to USB flash drives and SUPPORT OTG CABLE. ", 
+    "similar_apps": [
+        "Usb OTG Reader Pro", 
+        "HDMI Reader", 
+        "usb OTG reader", 
+        "Hdmi Connect", 
+        "HDMI Reader Pro", 
+        "TP-LINK tpCamera", 
+        "Open Router Settings", 
+        "USB MIDI Logger", 
+        "Wifi Connect", 
+        "Wifi Password Hacker Simulator", 
+        "HDMI Reader Premium", 
+        "Wifi Connecter Library", 
+        "726852970268543732938391855923", 
+        "USB Lab", 
+        "CardTest", 
+        "IP Tool", 
+        "Prolific PL2303 USB-GPIO", 
+        "Root All Devices - simulator", 
+        "Smart Card ATR Analyzer", 
+        "Cardboard VR 3D Environment", 
+        "Sound Mixer DJ Guide", 
+        "SComboReaderII", 
+        "CCID Reader Application Demo.", 
+        "Serial-USB ANE Tester", 
+        "IPEmotion App", 
+        "ES Chromecast plugin", 
+        "UC232A USB-to-Serial Converter", 
+        "InfoThink NFC Reader Demo", 
+        "Prolific PL2303 USB-UART"
+    ], 
+    "app_title": "Usb OTG Reader"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Experience virtual reality on your smartphone with Cardboard. ", 
+    "similar_apps": [
+        "Cardboard", 
+        "NVIDIA VR Viewer - Beta", 
+        "FD VR - Virtual App Launcher", 
+        "GPS LIVE MAP Guide", 
+        "Hello Google Play", 
+        "Cardboard VR 3D Environment", 
+        "Fish Schooling VR", 
+        "Village for Google Cardboard", 
+        "Tuscany Dive", 
+        "LIVE MAPS Guide", 
+        "VR Camera,VR CAM", 
+        "Lanterns for Google Cardboard", 
+        "Tuscany HD VR Cardobard", 
+        "MAGMA Cardboard VR", 
+        "EON Experience VR", 
+        "ViewR", 
+        "VR Space Walk", 
+        "Fireworks VR Show on Cardboard", 
+        "VR StarTrooper Arena Fly", 
+        "ASUS AiCam", 
+        "guide minecraft furniture", 
+        "MX Player Codec (ARMv7 NEON)", 
+        "Face Recognition", 
+        "All My... (Xposed Tweaks)", 
+        "Moonwalk for Cardboard", 
+        "GyroDroid", 
+        "CB Binoculars (Cardboard VR)", 
+        "MX Player Codec (ARMv7)", 
+        "Real Hacker Demo", 
+        "New Don't Stop Eighth Note Tip", 
+        "Gears", 
+        "Manatee Works Barcode Scanner", 
+        "Cool Funny Ringtones 2017 😂", 
+        "IP Pro", 
+        "Cute & sweetnes Ringtones 2017"
+    ], 
+    "app_title": "Cardboard Design Lab"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  OTG support ", 
+    "similar_apps": [
+        "Usb OTG Reader", 
+        "HDMI Reader", 
+        "usb OTG reader", 
+        "HDMI Reader Pro", 
+        "Hdmi Connect", 
+        "HDMI Reader Premium", 
+        "USB MIDI Logger", 
+        "USB Lab", 
+        "Prolific PL2303 USB-GPIO", 
+        "CardTest", 
+        "Serial-USB ANE Tester", 
+        "ES Chromecast plugin", 
+        "Smart Card ATR Analyzer", 
+        "CCID Reader Application Demo.", 
+        "PDF Plugin - Moon+ Reader", 
+        "UC232A USB-to-Serial Converter", 
+        "Adapter Synchronizer", 
+        "Prolific PL2303 USB-UART"
+    ], 
+    "app_title": "Usb OTG Reader Pro"
 },{
     "category": "Libraries & Demo", 
     "description": "  The Amazing Spider-Man 2 Guide is every of the most effective Tips & Tricks 2017. ", 
@@ -525,7 +808,6 @@
         "Superhero Skins for Minecraft", 
         "Guide The Amazing Spider-Man 3", 
         "MX Player Codec (ARMv7 NEON)", 
-        "Girl Skins for Minecraft PE", 
         "Katoptron (chatbot)", 
         "MX Player Codec (ARMv7)", 
         "MX Player Codec (ARMv6 VFP)", 
@@ -533,19 +815,11 @@
         "MX Player Codec (ARMv5)", 
         "MX Player Codec (ARMv6)", 
         "MX Player Codec (x86)", 
-        "Sound Mixer DJ Guide"
+        "Girl Skins for Minecraft PE", 
+        "Sound Mixer DJ Guide", 
+        "Guide LEGO SUPER HERO"
     ], 
     "app_title": "SuperHero & Princess Kids 🇺🇸"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Minion Rush app guide will help you learn how to play Minion rush 2017 unlimited ", 
-    "similar_apps": [
-        "Free Minion Rush Guide 2017", 
-        "Guide For Game Minion Rush", 
-        "Guide For Minion Rush Run!", 
-        "New Cadillacs Dinosaurs Guide"
-    ], 
-    "app_title": "Guide for Minion Rush 2017"
 },{
     "category": "Libraries & Demo", 
     "description": "  Guide For Game Surfers Subway You can read about this game for complete mission ", 
@@ -558,11 +832,14 @@
     "app_title": "Fan Subway Surfers Walkthrough"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Easy-setup for online viewing ", 
+    "description": "  Minion Rush app guide will help you learn how to play Minion rush 2017 unlimited ", 
     "similar_apps": [
-        "ASUS AiCam"
+        "Free Minion Rush Guide 2017", 
+        "Guide For Game Minion Rush", 
+        "Guide For Minion Rush Run!", 
+        "New Cadillacs Dinosaurs Guide"
     ], 
-    "app_title": "畫冊"
+    "app_title": "Guide for Minion Rush 2017"
 },{
     "category": "Libraries & Demo", 
     "description": "  Guide for Cadillacs and Dinosaurs 2017 is one of classical arcade game ", 
@@ -570,32 +847,43 @@
         "Guide Cadillacs Dinosaurs 2017", 
         "LIVE MAPS Guide", 
         "Youssef_Aassidik New", 
-        "guide minecraft furniture", 
         "Best ViMate Downloader guide", 
+        "guide minecraft furniture", 
         "Guide for Minion Rush 2017"
     ], 
     "app_title": "New Cadillacs Dinosaurs Guide"
 },{
     "category": "Libraries & Demo", 
-    "description": "  hdmi connect tv cable connector to disk drive explorer with", 
+    "description": "  MX Player Codec for ARMv7 NEON CPUs. ", 
     "similar_apps": [
-        "Hdmi Connect", 
-        "HDMI Reader Pro", 
-        "Usb OTG Reader Pro", 
-        "Usb OTG Reader", 
-        "HDMI Reader Premium", 
-        "usb OTG reader", 
-        "TP-LINK tpCamera", 
-        "Open Router Settings", 
-        "Wifi Connect", 
-        "DVB-T Driver", 
-        "Wifi Password Hacker Simulator", 
-        "726852970268543732938391855923", 
-        "HTML Source Code Viewer", 
+        "MX Player Codec (ARMv7 NEON)", 
+        "MX Player Codec (ARMv6 VFP)", 
+        "MX Player Codec (ARMv7)", 
+        "MX Player Codec (ARMv6)", 
+        "MX Player Codec (Tegra3)", 
+        "MX Player Codec (x86)", 
+        "Vide Made 2", 
+        "Best ViMate Downloader guide", 
+        "ES Chromecast plugin", 
+        "Sound Mixer DJ Guide", 
+        "LIVE MAPS Guide", 
+        "All My... (Xposed Tweaks)", 
+        "Face Recognition", 
+        "Version for Play Store - Demo", 
+        "Vitamio Plugin ARMv7", 
+        "أسرار البنات", 
+        "Popular Ringtones 2017 Free 🔥", 
+        "Fish Schooling VR", 
+        "NVIDIA VR Viewer - Beta", 
         "Wifi Connecter Library", 
-        "Root All Devices - simulator"
+        "Aviary Stickers: Free Pack", 
+        "Apk Installer", 
+        "VR Camera,VR CAM", 
+        "BLE SensorTag", 
+        "Cardboard", 
+        "SuperHero & Princess Kids 🇺🇸"
     ], 
-    "app_title": "HDMI Reader"
+    "app_title": "MX Player Codec (ARMv5)"
 },{
     "category": "Libraries & Demo", 
     "description": "  Connect wifi networks using WPS ", 
@@ -614,9 +902,146 @@
         "Hdmi Connect", 
         "Bug Reporter Library", 
         "MX Player Codec (ARMv7 NEON)", 
-        "MX Player Codec (ARMv7)"
+        "MX Player Codec (ARMv7)", 
+        "MX Player Codec (ARMv5)", 
+        "MX Player Codec (ARMv6)", 
+        "MX Player Codec (Tegra3)", 
+        "MX Player Codec (x86)", 
+        "Best ViMate Downloader guide", 
+        "LIVE MAPS Guide", 
+        "ES Chromecast plugin"
     ], 
     "app_title": "Wifi Connecter Library"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Beethoven – Classical Music is a good choice if you enjoy Beethoven's works. ", 
+    "similar_apps": [
+        "Beethoven – Classical Music", 
+        "Classical Music Beethoven", 
+        "Best Classical Music Ringtones", 
+        "Best Piano Lessons Beethoven", 
+        "Beethoven Symphony 1 Free", 
+        "Beethoven Piano Sonatas", 
+        "Symphony Music Player Reborn", 
+        "Beethoven Symphony 7", 
+        "اروع سيمفونيات بيتهوفن", 
+        "Classical Music", 
+        "Piano Beethoven", 
+        "Ensemble Composer Pro", 
+        "Music Box Composer", 
+        "Notation Pad-Sheet Music Score", 
+        "Mozart Symphony", 
+        "Ensemble Composer", 
+        "Music Maker JAM", 
+        "Classical Music Composer", 
+        "Best Composer", 
+        "MAESTRO - Music Composer", 
+        "Mobile Composer", 
+        "Music Composer", 
+        "Pocket Composer", 
+        "MuseScore", 
+        "Composing - Melody Generator", 
+        "Music Composer", 
+        "Радио России | Radio Russia", 
+        "Classical Music", 
+        "All that Beethoven-", 
+        "Classical Trance Library1", 
+        "HumOn - Simplest Music Maker", 
+        "Humming Composer", 
+        "Classical Music Radio", 
+        "Sarasota Opera", 
+        "Classical Radio", 
+        "Musik Klasik Ibu Hamil & Janin", 
+        "Classical Music(MUZIK)", 
+        "Music Composer", 
+        "Bach symphony", 
+        "Beethoven y Radios Clásicas", 
+        "Composer Free", 
+        "Beethoven's Symphony No 6", 
+        "DuPage Symphony Orchestra", 
+        "らふおん! ~即興演奏で簡単作曲~", 
+        "Classical Music Mozart", 
+        "Caustic 3", 
+        "♫ Classical Music ♫"
+    ], 
+    "app_title": "Beethoven Symphony"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Easy-setup for online viewing ", 
+    "similar_apps": [
+        "ASUS AiCam"
+    ], 
+    "app_title": "畫冊"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Our company   WiFi camera can be used to achieve remote configuration camera. ", 
+    "similar_apps": [
+        "LV360", 
+        "NCM"
+    ], 
+    "app_title": "V380s"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
+    "similar_apps": [
+        "Popular Ringtones 2017 Free 🔥", 
+        "Ringtones for IPhone™ 2017 🔥", 
+        "Ringtones for whatsapp", 
+        "Ringtones for Whatsapp™ Sounds", 
+        "Ringtones for Whatsapp™", 
+        "Notifications Ringtones", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Cute & sweetnes Ringtones 2017", 
+        "Cool Ringtones 2017 | Top 100", 
+        "Notifications Ringtones", 
+        "Scary Ringtones & Sounds 2017", 
+        "Top Ringtones for Android™", 
+        "Phone 7 Lock Screen", 
+        "Old Phone Ringtones & Alarm ☎", 
+        "Latest Ringtones 2017 | New 🏆", 
+        "Top Ringtones for Oppo™ Remix", 
+        "Instrumental Ringtones 2017", 
+        "Ringtones for Whatsapp™ 🔥", 
+        "Wake up Alarm Ringtones 2017 ⏰", 
+        "Free Guitar Ringtones 2017 🎸", 
+        "Instrumental Ringtones 2017", 
+        "Popular Ringtones 2017 Free", 
+        "🎉 Top Happy Birthday Songs 🎉", 
+        "Sim unlocker - simulator"
+    ], 
+    "app_title": "Free Iphone™ 7 Ringtones Remix"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  MX Player Codec for ARMv7 NEON CPUs. ", 
+    "similar_apps": [
+        "MX Player Codec (ARMv7 NEON)", 
+        "MX Player Codec (ARMv7)", 
+        "MX Player Codec (ARMv6 VFP)", 
+        "MX Player Codec (ARMv5)", 
+        "MX Player Codec (Tegra3)", 
+        "MX Player Codec (x86)", 
+        "ES Chromecast plugin", 
+        "Sound Mixer DJ Guide", 
+        "LIVE MAPS Guide", 
+        "Vide Made 2", 
+        "Best ViMate Downloader guide", 
+        "All My... (Xposed Tweaks)", 
+        "Face Recognition", 
+        "Version for Play Store - Demo", 
+        "Vitamio Plugin ARMv7", 
+        "أسرار البنات", 
+        "Popular Ringtones 2017 Free 🔥", 
+        "Apk Installer", 
+        "Fish Schooling VR", 
+        "NVIDIA VR Viewer - Beta", 
+        "Wifi Connecter Library", 
+        "Aviary Stickers: Free Pack", 
+        "VR Camera,VR CAM", 
+        "BLE SensorTag", 
+        "Cardboard", 
+        "SuperHero & Princess Kids 🇺🇸"
+    ], 
+    "app_title": "MX Player Codec (ARMv6)"
 },{
     "category": "Libraries & Demo", 
     "description": "  MX Player Codec for ARMv7 CPUs, including NVIDIA® Tegra™ 2. ", 
@@ -629,99 +1054,26 @@
         "MX Player Codec (x86)", 
         "ES Chromecast plugin", 
         "Vide Made 2", 
-        "Best ViMate Downloader guide", 
         "Sound Mixer DJ Guide", 
+        "Best ViMate Downloader guide", 
         "LIVE MAPS Guide", 
         "All My... (Xposed Tweaks)", 
+        "Face Recognition", 
         "Vitamio Plugin ARMv7", 
+        "Version for Play Store - Demo", 
         "Popular Ringtones 2017 Free 🔥", 
-        "أسرار البنات"
+        "أسرار البنات", 
+        "Fish Schooling VR", 
+        "Cardboard", 
+        "NVIDIA VR Viewer - Beta", 
+        "Top Ringtones for Oppo™ Remix", 
+        "Wifi Connecter Library", 
+        "Aviary Stickers: Free Pack", 
+        "VR Camera,VR CAM", 
+        "BLE SensorTag", 
+        "SuperHero & Princess Kids 🇺🇸"
     ], 
     "app_title": "MX Player Codec (Tegra3)"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
-    "similar_apps": [
-        "Popular Ringtones 2017 Free 🔥", 
-        "Ringtones for Whatsapp™ Sounds", 
-        "Notifications Ringtones", 
-        "Cute & sweetnes Ringtones 2017", 
-        "Ringtones for whatsapp", 
-        "Top Ringtones for Oppo™ Remix", 
-        "Latest Ringtones 2017 | New 🏆", 
-        "Ringtones for Whatsapp™", 
-        "Cool Ringtones 2017 | Top 100", 
-        "Notifications Ringtones", 
-        "Free Iphone™ 7 Ringtones Remix", 
-        "Old Phone Ringtones & Alarm ☎", 
-        "Top Ringtones for Android™", 
-        "Scary Ringtones & Sounds 2017", 
-        "Ringtones for IPhone™ 2017 🔥"
-    ], 
-    "app_title": "Cool Funny Ringtones 2017 😂"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
-    "similar_apps": [
-        "Popular Ringtones 2017 Free 🔥", 
-        "Ringtones for IPhone™ 2017 🔥", 
-        "Ringtones for whatsapp", 
-        "Ringtones for Whatsapp™ Sounds", 
-        "Ringtones for Whatsapp™", 
-        "Notifications Ringtones", 
-        "Cute & sweetnes Ringtones 2017", 
-        "Cool Funny Ringtones 2017 😂", 
-        "Cool Ringtones 2017 | Top 100", 
-        "Notifications Ringtones", 
-        "Scary Ringtones & Sounds 2017", 
-        "Phone 7 Lock Screen", 
-        "Top Ringtones for Android™", 
-        "Old Phone Ringtones & Alarm ☎", 
-        "Latest Ringtones 2017 | New 🏆"
-    ], 
-    "app_title": "Free Iphone™ 7 Ringtones Remix"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  MX Player Codec for ARMv7 NEON CPUs. ", 
-    "similar_apps": [
-        "MX Player Codec (ARMv7 NEON)", 
-        "MX Player Codec (ARMv7)", 
-        "MX Player Codec (ARMv6)", 
-        "MX Player Codec (Tegra3)", 
-        "MX Player Codec (ARMv5)", 
-        "MX Player Codec (x86)", 
-        "Best ViMate Downloader guide", 
-        "Vide Made 2", 
-        "ES Chromecast plugin", 
-        "Sound Mixer DJ Guide", 
-        "LIVE MAPS Guide", 
-        "All My... (Xposed Tweaks)", 
-        "Version for Play Store - Demo", 
-        "Vitamio Plugin ARMv7", 
-        "Popular Ringtones 2017 Free 🔥"
-    ], 
-    "app_title": "MX Player Codec (ARMv6 VFP)"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
-    "similar_apps": [
-        "Popular Ringtones 2017 Free 🔥", 
-        "Cool Ringtones 2017 | Top 100", 
-        "Top Ringtones for Oppo™ Remix", 
-        "Scary Ringtones & Sounds 2017", 
-        "Top Ringtones for Android™", 
-        "Cute & sweetnes Ringtones 2017", 
-        "Cool Funny Ringtones 2017 😂", 
-        "Ringtones for Whatsapp™ Sounds", 
-        "Old Phone Ringtones & Alarm ☎", 
-        "Ringtones for IPhone™ 2017 🔥", 
-        "Instrumental Ringtones 2017", 
-        "Ringtones for Whatsapp™", 
-        "Free Iphone™ 7 Ringtones Remix", 
-        "Wake up Alarm Ringtones 2017 ⏰", 
-        "Free Guitar Ringtones 2017 🎸"
-    ], 
-    "app_title": "Latest Ringtones 2017 | New 🏆"
 },{
     "category": "Libraries & Demo", 
     "description": "  OpenCv Android Samples from OpenCV SDK using Android Studio and Gradle System ", 
@@ -742,6 +1094,50 @@
     "app_title": "OpenCV Manager"
 },{
     "category": "Libraries & Demo", 
+    "description": "  hdmi connect tv cable connector to disk drive explorer with", 
+    "similar_apps": [
+        "Hdmi Connect", 
+        "HDMI Reader Pro", 
+        "Usb OTG Reader Pro", 
+        "Usb OTG Reader", 
+        "HDMI Reader Premium", 
+        "usb OTG reader", 
+        "TP-LINK tpCamera", 
+        "Open Router Settings", 
+        "Wifi Connect", 
+        "DVB-T Driver", 
+        "Wifi Password Hacker Simulator", 
+        "726852970268543732938391855923", 
+        "Wifi Connecter Library", 
+        "HTML Source Code Viewer", 
+        "Root All Devices - simulator", 
+        "IP Tool", 
+        "Sound Mixer DJ Guide", 
+        "Smart Card ATR Analyzer", 
+        "PDF Plugin - Moon+ Reader", 
+        "CCID Reader Application Demo.", 
+        "USB MIDI Logger", 
+        "USB Lab"
+    ], 
+    "app_title": "HDMI Reader"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  A plugin that enable Smart Launcher to use some extra features. ", 
+    "similar_apps": [
+        "Plugin Extra", 
+        "Plugin Notifications", 
+        "GhostCommander plugin: GDrive", 
+        "ES Chromecast plugin", 
+        "SMB plugin for Ghost Commander", 
+        "SFTP plugin to Ghost Commander", 
+        "Clipper Sync Plugin", 
+        "GUIDE for Gangstar Vegas", 
+        "Threema QR Scanner Plugin", 
+        "PDF Plugin - Moon+ Reader"
+    ], 
+    "app_title": "AZ Plugin 2 (newest)"
+},{
+    "category": "Libraries & Demo", 
     "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
     "similar_apps": [
         "Popular Ringtones 2017 Free 🔥", 
@@ -758,50 +1154,498 @@
         "Notifications Ringtones", 
         "Cool Ringtones 2017 | Top 100", 
         "Ringtones for IPhone™ 2017 🔥", 
-        "Old Phone Ringtones & Alarm ☎"
+        "Old Phone Ringtones & Alarm ☎", 
+        "Instrumental Ringtones 2017", 
+        "Ringtones for Whatsapp™ 🔥", 
+        "Wake up Alarm Ringtones 2017 ⏰", 
+        "ZTE Axon On-Device Demo", 
+        "ZTE Avid Trio Demo MetroPCS", 
+        "ZTE Avid Trio Demo T-Mobile", 
+        "Sim unlocker - simulator", 
+        "Free Guitar Ringtones 2017 🎸", 
+        "Instrumental Ringtones 2017", 
+        "🎉 Top Happy Birthday Songs 🎉", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Popular Ringtones 2017 Free", 
+        "Cardboard", 
+        "Cardboard Design Lab", 
+        "NVIDIA VR Viewer - Beta", 
+        "FD VR - Virtual App Launcher", 
+        "Cardboard VR 3D Environment", 
+        "Fish Schooling VR", 
+        "Tuscany Dive", 
+        "Village for Google Cardboard", 
+        "ViewR", 
+        "GPS LIVE MAP Guide", 
+        "Hello Google Play", 
+        "VR StarTrooper Arena Fly", 
+        "VR Camera,VR CAM", 
+        "Lanterns for Google Cardboard", 
+        "MX Player Codec (ARMv7 NEON)", 
+        "MAGMA Cardboard VR", 
+        "VR Space Walk", 
+        "Fireworks VR Show on Cardboard", 
+        "Free Minion Rush Guide 2017", 
+        "Top Voice Changer Call Ever"
     ], 
     "app_title": "Cute & sweetnes Ringtones 2017"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Download and enjoy the APP !!! ", 
+    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
     "similar_apps": [
-        "Free Kingroot 2K17 Guide", 
-        "Free Monster Motocross Guide", 
-        "Free Breath of the Wild Guide"
+        "Popular Ringtones 2017 Free 🔥", 
+        "Ringtones for Whatsapp™ Sounds", 
+        "Notifications Ringtones", 
+        "Cute & sweetnes Ringtones 2017", 
+        "Ringtones for whatsapp", 
+        "Top Ringtones for Oppo™ Remix", 
+        "Latest Ringtones 2017 | New 🏆", 
+        "Ringtones for Whatsapp™", 
+        "Cool Ringtones 2017 | Top 100", 
+        "Notifications Ringtones", 
+        "Free Iphone™ 7 Ringtones Remix", 
+        "Old Phone Ringtones & Alarm ☎", 
+        "Top Ringtones for Android™", 
+        "Scary Ringtones & Sounds 2017", 
+        "Ringtones for IPhone™ 2017 🔥", 
+        "Ringtones for Whatsapp™ 🔥", 
+        "Instrumental Ringtones 2017", 
+        "ZTE Axon On-Device Demo", 
+        "Wake up Alarm Ringtones 2017 ⏰", 
+        "ZTE Avid Trio Demo T-Mobile", 
+        "Sim unlocker - simulator", 
+        "ZTE Avid Trio Demo MetroPCS", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Free Guitar Ringtones 2017 🎸", 
+        "Cool Sözler", 
+        "Instrumental Ringtones 2017", 
+        "Cardboard", 
+        "Cardboard Design Lab", 
+        "Tuscany Dive", 
+        "GPS LIVE MAP Guide", 
+        "واتس اب الوان بلس 2017", 
+        "Popular Ringtones 2017 Free", 
+        "NVIDIA VR Viewer - Beta", 
+        "FD VR - Virtual App Launcher", 
+        "Cardboard VR 3D Environment", 
+        "Fish Schooling VR", 
+        "Phone 7 Lock Screen", 
+        "Village for Google Cardboard", 
+        "ViewR", 
+        "Hello Google Play", 
+        "VR StarTrooper Arena Fly", 
+        "VR Camera,VR CAM", 
+        "Lanterns for Google Cardboard", 
+        "MAGMA Cardboard VR", 
+        "MX Player Codec (ARMv7 NEON)", 
+        "🎉 Top Happy Birthday Songs 🎉", 
+        "Plugin Notifications", 
+        "Fireworks VR Show on Cardboard"
     ], 
-    "app_title": "Free Ben 10 Ultimate Guide"
+    "app_title": "Cool Funny Ringtones 2017 😂"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Get 30+ Ionic 2 UI screens and build your Ionic 2 /Angular 2 mobile app. ", 
+    "description": "  MX Player Codec for ARMv7 NEON CPUs. ", 
     "similar_apps": [
-        "Ionic 2 UI Theme - Yellow Dark", 
-        "Ionic UI Theme - Green Light", 
-        "Ionic UI Theme - Blue Light", 
-        "Ionic UI Theme - Purple Light", 
-        "Ionic test demo", 
-        "Big JSON in ionic app", 
-        "Ionic UI Theme - Yellow Dark", 
-        "Temple Chat for Ionic 2", 
-        "Quizionic 2", 
-        "Ionic UI Theme - Red Dark", 
-        "WordApp"
+        "MX Player Codec (ARMv7 NEON)", 
+        "MX Player Codec (ARMv7)", 
+        "MX Player Codec (ARMv5)", 
+        "MX Player Codec (ARMv6)", 
+        "MX Player Codec (Tegra3)", 
+        "MX Player Codec (x86)", 
+        "Best ViMate Downloader guide", 
+        "Vide Made 2", 
+        "ES Chromecast plugin", 
+        "Sound Mixer DJ Guide", 
+        "LIVE MAPS Guide", 
+        "All My... (Xposed Tweaks)", 
+        "Version for Play Store - Demo", 
+        "Face Recognition", 
+        "Vitamio Plugin ARMv7", 
+        "Popular Ringtones 2017 Free 🔥", 
+        "Apk Installer", 
+        "Fish Schooling VR", 
+        "Wifi Connecter Library", 
+        "Cuma Mesajları", 
+        "NVIDIA VR Viewer - Beta", 
+        "Cardboard", 
+        "Top Voice Changer Ever", 
+        "Aviary Stickers: Free Pack", 
+        "VR Camera,VR CAM", 
+        "Deli Laflar", 
+        "SuperHero & Princess Kids 🇺🇸", 
+        "Paylaşmalık Sözler"
     ], 
-    "app_title": "Syncfusion Ionic samples"
+    "app_title": "MX Player Codec (ARMv6 VFP)"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Do you know how a hacker app could be? ", 
+    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
     "similar_apps": [
-        "Real Hacker Demo"
+        "Popular Ringtones 2017 Free 🔥", 
+        "Cool Ringtones 2017 | Top 100", 
+        "Top Ringtones for Oppo™ Remix", 
+        "Scary Ringtones & Sounds 2017", 
+        "Top Ringtones for Android™", 
+        "Cute & sweetnes Ringtones 2017", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Ringtones for Whatsapp™ Sounds", 
+        "Old Phone Ringtones & Alarm ☎", 
+        "Ringtones for IPhone™ 2017 🔥", 
+        "Instrumental Ringtones 2017", 
+        "Ringtones for Whatsapp™", 
+        "Free Iphone™ 7 Ringtones Remix", 
+        "Wake up Alarm Ringtones 2017 ⏰", 
+        "Free Guitar Ringtones 2017 🎸", 
+        "Instrumental Ringtones 2017", 
+        "ZTE Axon On-Device Demo", 
+        "ZTE Avid Trio Demo MetroPCS", 
+        "ZTE Avid Trio Demo T-Mobile", 
+        "Sim unlocker - simulator", 
+        "Popular Ringtones 2017 Free", 
+        "Ringtones for Whatsapp™ 🔥", 
+        "LG G5 & Friends Training", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Notifications Ringtones", 
+        "🎉 Top Happy Birthday Songs 🎉"
     ], 
-    "app_title": "new Dragon City game tips"
+    "app_title": "Latest Ringtones 2017 | New 🏆"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Only now Bjawalk enjoy Bajadded Turkish soap operas that have not been television channels ", 
+    "description": "  Auto Clean is application It can clean and boost your phone very fast . ", 
     "similar_apps": [
-        "", 
-        "Frequency Of Arabsat Channels"
+        "Auto Clean", 
+        "Auto Cleaner free", 
+        "Auto Clean", 
+        "Fast Cleaner Pro-Android"
     ], 
-    "app_title": "مسلسلات تركية PRANK"
+    "app_title": "Auto Clear Memory"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  MX Player Codec for ARMv7 NEON CPUs. ", 
+    "similar_apps": [
+        "MX Player Codec (ARMv7 NEON)", 
+        "MX Player Codec (ARMv6 VFP)", 
+        "MX Player Codec (Tegra3)", 
+        "MX Player Codec (ARMv6)", 
+        "MX Player Codec (ARMv5)", 
+        "MX Player Codec (x86)", 
+        "Best ViMate Downloader guide", 
+        "Vide Made 2", 
+        "ES Chromecast plugin", 
+        "Sound Mixer DJ Guide", 
+        "LIVE MAPS Guide", 
+        "All My... (Xposed Tweaks)", 
+        "Vitamio Plugin ARMv7", 
+        "Cardboard", 
+        "Face Recognition", 
+        "Version for Play Store - Demo", 
+        "NVIDIA VR Viewer - Beta", 
+        "Fish Schooling VR", 
+        "Hello Google Play", 
+        "Popular Ringtones 2017 Free 🔥", 
+        "FD VR - Virtual App Launcher", 
+        "Ringtones for Whatsapp™", 
+        "VR Camera,VR CAM", 
+        "Cardboard Design Lab", 
+        "Cardboard VR 3D Environment", 
+        "Tuscany Dive", 
+        "Village for Google Cardboard", 
+        "GPS LIVE MAP Guide", 
+        "Lanterns for Google Cardboard", 
+        "ASUS AiCam", 
+        "Tuscany HD VR Cardobard", 
+        "Apk Installer", 
+        "Gears", 
+        "guide minecraft furniture", 
+        "Lyrics Library", 
+        "GyroDroid", 
+        "Top Ringtones for Oppo™ Remix", 
+        "Market Helper", 
+        "Cuma Mesajları", 
+        "EyeCloud", 
+        "Wifi Connecter Library", 
+        "Aviary Stickers: Free Pack", 
+        "Deli Laflar", 
+        "SuperHero & Princess Kids 🇺🇸"
+    ], 
+    "app_title": "MX Player Codec (ARMv7)"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
+    "similar_apps": [
+        "Popular Ringtones 2017 Free 🔥", 
+        "Latest Ringtones 2017 | New 🏆", 
+        "Top Ringtones for Oppo™ Remix", 
+        "Ringtones for Whatsapp™ Sounds", 
+        "Cute & sweetnes Ringtones 2017", 
+        "Cool Ringtones 2017 | Top 100", 
+        "Scary Ringtones & Sounds 2017", 
+        "Ringtones for IPhone™ 2017 🔥", 
+        "Instrumental Ringtones 2017", 
+        "Old Phone Ringtones & Alarm ☎", 
+        "Free Iphone™ 7 Ringtones Remix", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Ringtones for Whatsapp™", 
+        "Wake up Alarm Ringtones 2017 ⏰", 
+        "Instrumental Ringtones 2017", 
+        "Notifications Ringtones", 
+        "Free Guitar Ringtones 2017 🎸", 
+        "Popular Ringtones 2017 Free", 
+        "Ringtones for Whatsapp™ 🔥", 
+        "Ringtones for whatsapp", 
+        "🎉 Top Happy Birthday Songs 🎉"
+    ], 
+    "app_title": "Top Ringtones for Android™"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
+    "similar_apps": [
+        "Popular Ringtones 2017 Free 🔥", 
+        "Free Guitar Ringtones 2017 🎸", 
+        "Latest Ringtones 2017 | New 🏆", 
+        "Old Phone Ringtones & Alarm ☎", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Top Ringtones for Android™", 
+        "Free Iphone™ 7 Ringtones Remix", 
+        "Cute & sweetnes Ringtones 2017", 
+        "Top Ringtones for Oppo™ Remix", 
+        "Scary Ringtones & Sounds 2017", 
+        "Ringtones for Whatsapp™", 
+        "Ringtones for Whatsapp™ Sounds", 
+        "ZTE Axon On-Device Demo", 
+        "Ringtones for IPhone™ 2017 🔥", 
+        "ZTE Avid Trio Demo MetroPCS", 
+        "ZTE Avid Trio Demo T-Mobile", 
+        "Sim unlocker - simulator", 
+        "Notifications Ringtones", 
+        "Instrumental Ringtones 2017", 
+        "Wake up Alarm Ringtones 2017 ⏰", 
+        "Cool Sözler", 
+        "Top Voice Changer Ever", 
+        "Huawei NetEco App"
+    ], 
+    "app_title": "Cool Ringtones 2017 | Top 100"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
+    "similar_apps": [
+        "Popular Ringtones 2017 Free 🔥", 
+        "Latest Ringtones 2017 | New 🏆", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Cute & sweetnes Ringtones 2017", 
+        "Top Ringtones for Android™", 
+        "Ringtones for Whatsapp™ Sounds", 
+        "Cool Ringtones 2017 | Top 100", 
+        "Ringtones for Whatsapp™", 
+        "Ringtones for IPhone™ 2017 🔥", 
+        "Scary Ringtones & Sounds 2017", 
+        "Instrumental Ringtones 2017", 
+        "Free Iphone™ 7 Ringtones Remix", 
+        "Old Phone Ringtones & Alarm ☎", 
+        "Notifications Ringtones", 
+        "Wake up Alarm Ringtones 2017 ⏰", 
+        "Free Guitar Ringtones 2017 🎸", 
+        "Instrumental Ringtones 2017", 
+        "Cardboard", 
+        "Popular Ringtones 2017 Free", 
+        "Ringtones for Whatsapp™ 🔥", 
+        "🎉 Top Happy Birthday Songs 🎉", 
+        "MX Player Codec (Tegra3)", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Fan PES 2017 Walkthrough", 
+        "MX Player Codec (ARMv7)"
+    ], 
+    "app_title": "Top Ringtones for Oppo™ Remix"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  MX Player Codec for ARMv7 CPUs, including NVIDIA® Tegra™ 2. ", 
+    "similar_apps": [
+        "MX Player Codec (ARMv7)", 
+        "MX Player Codec (ARMv6 VFP)", 
+        "MX Player Codec (Tegra3)", 
+        "MX Player Codec (ARMv5)", 
+        "MX Player Codec (ARMv6)", 
+        "MX Player Codec (x86)", 
+        "Best ViMate Downloader guide", 
+        "Vide Made 2", 
+        "Version for Play Store - Demo", 
+        "ES Chromecast plugin", 
+        "Sound Mixer DJ Guide", 
+        "LIVE MAPS Guide", 
+        "All My... (Xposed Tweaks)", 
+        "Cardboard", 
+        "Hello Google Play", 
+        "Fish Schooling VR", 
+        "NVIDIA VR Viewer - Beta", 
+        "VR Camera,VR CAM", 
+        "Cardboard Design Lab", 
+        "FD VR - Virtual App Launcher", 
+        "Cardboard VR 3D Environment", 
+        "Tuscany Dive", 
+        "Village for Google Cardboard", 
+        "Lanterns for Google Cardboard", 
+        "GPS LIVE MAP Guide", 
+        "Apk Installer", 
+        "ViewR", 
+        "Tuscany HD VR Cardobard", 
+        "Vitamio Plugin ARMv7", 
+        "Face Recognition", 
+        "VR Space Walk", 
+        "ASUS AiCam", 
+        "guide minecraft furniture", 
+        "EON Experience VR", 
+        "VR StarTrooper Arena Fly", 
+        "Market Helper", 
+        "Popular Ringtones 2017 Free 🔥", 
+        "SuperHero & Princess Kids 🇺🇸", 
+        "GyroDroid", 
+        "New Don't Stop Eighth Note Tip", 
+        "Wi-Fiスポット設定", 
+        "Gears", 
+        "Real Hacker Demo", 
+        "Market Update Helper", 
+        "HTC Service Pack", 
+        "أغاني الرسوم المتحركة بدون نت", 
+        "Wifi Connecter Library", 
+        "Aviary Stickers: Free Pack", 
+        "Cool Funny Ringtones 2017 😂"
+    ], 
+    "app_title": "MX Player Codec (ARMv7 NEON)"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  The Biggest collection of the Coolest Ringtones of 2017 ", 
+    "similar_apps": [
+        "Cool Ringtones 2017 | Top 100", 
+        "Latest Ringtones 2017 | New 🏆", 
+        "Top Ringtones for Oppo™ Remix", 
+        "Ringtones for Whatsapp™ Sounds", 
+        "Free Iphone™ 7 Ringtones Remix", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Cute & sweetnes Ringtones 2017", 
+        "Notifications Ringtones", 
+        "Top Ringtones for Android™", 
+        "Scary Ringtones & Sounds 2017", 
+        "Old Phone Ringtones & Alarm ☎", 
+        "Ringtones for Whatsapp™", 
+        "Ringtones for IPhone™ 2017 🔥", 
+        "ZTE Axon On-Device Demo", 
+        "Instrumental Ringtones 2017", 
+        "ZTE Avid Trio Demo T-Mobile", 
+        "LG G5 & Friends Training", 
+        "Huawei NetEco App", 
+        "Wake up Alarm Ringtones 2017 ⏰", 
+        "Ringtones for whatsapp", 
+        "Sim unlocker - simulator", 
+        "Adventure Point Blank", 
+        "Free Guitar Ringtones 2017 🎸", 
+        "Phone 7 Lock Screen", 
+        "🎉 Top Happy Birthday Songs 🎉", 
+        "Fan PES 2017 Walkthrough", 
+        "HTC Service Pack", 
+        "معاني الاسماء بدون انترنت", 
+        "MX Player Codec (Tegra3)", 
+        "MX Player Codec (ARMv7)", 
+        "MX Player Codec (ARMv6 VFP)", 
+        "MX Player Codec (ARMv7 NEON)", 
+        "MX Player Codec (ARMv5)", 
+        "MX Player Codec (ARMv6)", 
+        "Notifications Ringtones", 
+        "LIVE MAPS Guide", 
+        "Sound Mixer DJ Guide", 
+        "Vide Made 2", 
+        "ES Chromecast plugin", 
+        "Best ViMate Downloader guide", 
+        "Green Flame Launcher", 
+        "Cardboard", 
+        "New Battle Simulator Tips 2017", 
+        "Plugin Notifications", 
+        "All My... (Xposed Tweaks)", 
+        "Wifi Password Hacker Simulator", 
+        "أسرار البنات"
+    ], 
+    "app_title": "Popular Ringtones 2017 Free 🔥"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Experience virtual reality on your smartphone with Cardboard. ", 
+    "similar_apps": [
+        "Cardboard", 
+        "FD VR - Virtual App Launcher", 
+        "Fish Schooling VR", 
+        "NVIDIA VR Viewer - Beta", 
+        "Cardboard Design Lab", 
+        "Tuscany HD VR Cardobard", 
+        "Cardboard VR 3D Environment", 
+        "Tuscany Dive", 
+        "Village for Google Cardboard", 
+        "IP Pro", 
+        "GPS LIVE MAP Guide", 
+        "Lanterns for Google Cardboard", 
+        "EON Experience VR", 
+        "Hello Google Play", 
+        "LIVE MAPS Guide", 
+        "ViewR", 
+        "Fireworks VR Show on Cardboard", 
+        "VR Space Walk", 
+        "IP Tool", 
+        "MX Player Codec (ARMv7 NEON)", 
+        "VR StarTrooper Arena Fly", 
+        "ASUS AiCam", 
+        "guide minecraft furniture", 
+        "MAGMA Cardboard VR", 
+        "All My... (Xposed Tweaks)", 
+        "Face Recognition", 
+        "Falcon IP Cam", 
+        "GyroDroid", 
+        "Moonwalk for Cardboard", 
+        "EyeCloud", 
+        "CB Binoculars (Cardboard VR)", 
+        "MX Player Codec (ARMv7)", 
+        "VR tech", 
+        "JCloud", 
+        "Real Hacker Demo", 
+        "New Don't Stop Eighth Note Tip", 
+        "Gears", 
+        "JSee", 
+        "Manatee Works Barcode Scanner", 
+        "MX Player Codec (ARMv6 VFP)", 
+        "MX Player Codec (ARMv5)", 
+        "MX Player Codec (Tegra3)", 
+        "MX Player Codec (ARMv6)", 
+        "MX Player Codec (x86)", 
+        "Sound Mixer DJ Guide", 
+        "Paper3D (Cardboard)", 
+        "LV360", 
+        "Cool Funny Ringtones 2017 😂"
+    ], 
+    "app_title": "VR Camera,VR CAM"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Auto Clear Memory is an application of cleaning and boost your phone very fast ", 
+    "similar_apps": [
+        "Auto Clear Memory", 
+        "Camera Block -Anti spy-malware", 
+        "Super Power Battery Saver Pro", 
+        "Wifi Connect", 
+        "Cardboard"
+    ], 
+    "app_title": "Auto Clean"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  New Freeplay Bima-X Tips This app will tell you how to get a easy higher score. ", 
+    "similar_apps": [
+        "New Freeplay Bima-X Tips", 
+        "Guide for Exploration Lite 2", 
+        "Tips Dream League Soccer 2016"
+    ], 
+    "app_title": "New Free The Sims 4 Cheats"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Cheat For Clash Of Clans Prank this app is all free to generat using clash guide. ", 
+    "similar_apps": [
+        "Cheat For Clash Of Clans Prank", 
+        "Gems Of Clash Royale Prank"
+    ], 
+    "app_title": "Cheat For Clash Of Clans Guide"
 },{
     "category": "Libraries & Demo", 
     "description": "  Download and enjoy the GAME !!! ", 
@@ -820,83 +1664,6 @@
     "app_title": "Guide For Minion Rush Run!"
 },{
     "category": "Libraries & Demo", 
-    "description": "  HentekProcam is a easy for IP cam and smart home APP interface for user. ", 
-    "similar_apps": [
-        "HentekProcam(VR)", 
-        "HentekProcam(Muti-Language)"
-    ], 
-    "app_title": "HentekProcam(VR)"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Fan Subway Surfers Walkthrough Application walkthrough help you easy to play. ", 
-    "similar_apps": [
-        "Fan Subway Surfers Walkthrough", 
-        "Guide For Game Surfers Subway"
-    ], 
-    "app_title": "New Subway Surfers Tips"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Music Maniac Mp3 Player is a simple music player for Smartphones . ", 
-    "similar_apps": [
-        "Music Maniac Mp3 Player", 
-        "Key Library Ultimate Video", 
-        "Mp3 Music Player Classic", 
-        "Music Player With Lyrics", 
-        "Music Player Volume High", 
-        "Unlimited Player for Music", 
-        "Music Player Top", 
-        "Music Player Pro", 
-        "Music Player Mp3 Lyrics", 
-        "Music Player Mp3", 
-        "Music Player Equalizer", 
-        "Music Player Classic", 
-        "Music Player Best", 
-        "Music Player Bass Sounds Pro", 
-        "Music Player Bass Effect"
-    ], 
-    "app_title": "Key Library Ultimate Video"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Do you know how a hacker app could be? ", 
-    "similar_apps": [
-        "Real Hacker Demo", 
-        "Cheat For Clash Of Clans Guide", 
-        "Lastest Maps Of Clash of Clans", 
-        "Gems Of Clash Royale Prank"
-    ], 
-    "app_title": "Cheat For Clash Of Clans Prank"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Cheat For Clash Of Clans Prank this app is all free to generat using clash guide. ", 
-    "similar_apps": [
-        "Cheat For Clash Of Clans Prank", 
-        "Gems Of Clash Royale Prank"
-    ], 
-    "app_title": "Cheat For Clash Of Clans Guide"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  HDMI Reader For TV ", 
-    "similar_apps": [
-        "HDMI Reader", 
-        "Hdmi Connect", 
-        "HDMI Reader Pro", 
-        "HDMI Reader Premium"
-    ], 
-    "app_title": "DVB-T Driver"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  HDMI Reader For TV ", 
-    "similar_apps": [
-        "HDMI Reader", 
-        "Hdmi Connect", 
-        "HDMI Reader Pro", 
-        "Usb OTG Reader Pro", 
-        "Usb OTG Reader", 
-        "DVB-T Driver"
-    ], 
-    "app_title": "HDMI Reader Premium"
-},{
-    "category": "Libraries & Demo", 
     "description": "  Feel free to use this guide / tutorial / Information for appsvn app. ", 
     "similar_apps": [
         "Appsvn Reference", 
@@ -904,457 +1671,6 @@
         "тυтυ нelper reғereɴce"
     ], 
     "app_title": "Guardian Game Reference"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  New Freeplay Bima-X Tips This app will tell you how to get a easy higher score. ", 
-    "similar_apps": [
-        "New Freeplay Bima-X Tips", 
-        "Guide for Exploration Lite 2", 
-        "Tips Dream League Soccer 2016"
-    ], 
-    "app_title": "New Free The Sims 4 Cheats"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Sample for uCrop - Image Cropping Library for Android ", 
-    "similar_apps": [
-        "uCrop", 
-        "JellyToolbar", 
-        "To Do List", 
-        "Search Filter", 
-        "Multi Selection", 
-        "Тур Днепр", 
-        "Horizon"
-    ], 
-    "app_title": "JellyToolbar"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  New Dream League Soccer Tips ", 
-    "similar_apps": [
-        "New Dream League Soccer Tips", 
-        "Tips Dream League Soccer 2018", 
-        "Fan PES 2017 Walkthrough", 
-        "New Freeplay Bima-X Tips", 
-        "Guide for Exploration Lite 2", 
-        "New Free The Sims 4 Cheats"
-    ], 
-    "app_title": "Tips Dream League Soccer 2016"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  think fast and plant faster to have successful Plants vs Zombies Heroes strategy ", 
-    "similar_apps": [
-        "Walkthrough For Rolling Sky", 
-        "Guide Plants vs Zombies Heroes", 
-        "Walkthrough PES 2017 Free"
-    ], 
-    "app_title": "Walkthrough For Rolling Sky"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Shows Java Card applet installed on a contact-less Smart Card and tag info. ", 
-    "similar_apps": [
-        "NFC Smart Card Info", 
-        "CardTest", 
-        "PassportImageDecoder"
-    ], 
-    "app_title": "AusweisApp2"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
-    "similar_apps": [
-        "Popular Ringtones 2017 Free 🔥", 
-        "Latest Ringtones 2017 | New 🏆", 
-        "Top Ringtones for Oppo™ Remix", 
-        "Cute & sweetnes Ringtones 2017", 
-        "Ringtones for Whatsapp™ Sounds", 
-        "Scary Ringtones & Sounds 2017", 
-        "Cool Ringtones 2017 | Top 100", 
-        "Ringtones for IPhone™ 2017 🔥", 
-        "Instrumental Ringtones 2017", 
-        "Old Phone Ringtones & Alarm ☎", 
-        "Free Iphone™ 7 Ringtones Remix", 
-        "Cool Funny Ringtones 2017 😂", 
-        "Ringtones for Whatsapp™", 
-        "Wake up Alarm Ringtones 2017 ⏰", 
-        "Instrumental Ringtones 2017"
-    ], 
-    "app_title": "Top Ringtones for Android™"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Video collection toy Nerf Guns ", 
-    "similar_apps": [
-        "Toyz Nerf Guns Collection"
-    ], 
-    "app_title": "Toy Gun 2017"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
-    "similar_apps": [
-        "Popular Ringtones 2017 Free 🔥", 
-        "Free Guitar Ringtones 2017 🎸", 
-        "Latest Ringtones 2017 | New 🏆", 
-        "Old Phone Ringtones & Alarm ☎", 
-        "Cool Funny Ringtones 2017 😂", 
-        "Free Iphone™ 7 Ringtones Remix", 
-        "Top Ringtones for Android™", 
-        "Cute & sweetnes Ringtones 2017", 
-        "Top Ringtones for Oppo™ Remix", 
-        "Scary Ringtones & Sounds 2017", 
-        "Ringtones for Whatsapp™ Sounds", 
-        "Ringtones for Whatsapp™", 
-        "ZTE Axon On-Device Demo", 
-        "Ringtones for IPhone™ 2017 🔥", 
-        "ZTE Avid Trio Demo MetroPCS"
-    ], 
-    "app_title": "Cool Ringtones 2017 | Top 100"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  MX Player Codec for ARMv7 NEON CPUs. ", 
-    "similar_apps": [
-        "MX Player Codec (ARMv7 NEON)", 
-        "MX Player Codec (ARMv6 VFP)", 
-        "MX Player Codec (Tegra3)", 
-        "MX Player Codec (ARMv6)", 
-        "MX Player Codec (ARMv5)", 
-        "MX Player Codec (x86)", 
-        "Best ViMate Downloader guide", 
-        "Vide Made 2", 
-        "ES Chromecast plugin", 
-        "Sound Mixer DJ Guide", 
-        "LIVE MAPS Guide", 
-        "All My... (Xposed Tweaks)", 
-        "Cardboard", 
-        "Vitamio Plugin ARMv7", 
-        "Version for Play Store - Demo"
-    ], 
-    "app_title": "MX Player Codec (ARMv7)"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Auto Clean is application It can clean and boost your phone very fast . ", 
-    "similar_apps": [
-        "Auto Clean", 
-        "Auto Cleaner free", 
-        "Auto Clean", 
-        "Fast Cleaner Pro-Android"
-    ], 
-    "app_title": "Auto Clear Memory"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  A plugin that enable Smart Launcher to use some extra features. ", 
-    "similar_apps": [
-        "Plugin Extra", 
-        "Plugin Notifications", 
-        "GhostCommander plugin: GDrive", 
-        "SMB plugin for Ghost Commander", 
-        "ES Chromecast plugin", 
-        "SFTP plugin to Ghost Commander", 
-        "Clipper Sync Plugin", 
-        "GUIDE for Gangstar Vegas", 
-        "Threema QR Scanner Plugin", 
-        "PDF Plugin - Moon+ Reader"
-    ], 
-    "app_title": "AZ Plugin 2 (newest)"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  The Biggest collection of the Coolest Ringtones of 2017 ", 
-    "similar_apps": [
-        "Cool Ringtones 2017 | Top 100", 
-        "Latest Ringtones 2017 | New 🏆", 
-        "Top Ringtones for Oppo™ Remix", 
-        "Ringtones for Whatsapp™ Sounds", 
-        "Free Iphone™ 7 Ringtones Remix", 
-        "Cool Funny Ringtones 2017 😂", 
-        "Cute & sweetnes Ringtones 2017", 
-        "Notifications Ringtones", 
-        "Scary Ringtones & Sounds 2017", 
-        "Top Ringtones for Android™", 
-        "Old Phone Ringtones & Alarm ☎", 
-        "Ringtones for Whatsapp™", 
-        "Ringtones for IPhone™ 2017 🔥", 
-        "ZTE Axon On-Device Demo", 
-        "Instrumental Ringtones 2017"
-    ], 
-    "app_title": "Popular Ringtones 2017 Free 🔥"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Experience virtual reality on your smartphone with Cardboard. ", 
-    "similar_apps": [
-        "Cardboard", 
-        "FD VR - Virtual App Launcher", 
-        "Fish Schooling VR", 
-        "NVIDIA VR Viewer - Beta", 
-        "Cardboard Design Lab", 
-        "Cardboard VR 3D Environment", 
-        "Tuscany HD VR Cardobard", 
-        "Tuscany Dive", 
-        "Village for Google Cardboard", 
-        "IP Pro", 
-        "GPS LIVE MAP Guide", 
-        "Lanterns for Google Cardboard", 
-        "EON Experience VR", 
-        "Hello Google Play", 
-        "LIVE MAPS Guide"
-    ], 
-    "app_title": "VR Camera,VR CAM"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Auto Clear Memory is an application of cleaning and boost your phone very fast ", 
-    "similar_apps": [
-        "Auto Clear Memory"
-    ], 
-    "app_title": "Auto Clean"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Auto Clear Memory is an application of cleaning and boost your phone very fast ", 
-    "similar_apps": [
-        "Auto Clear Memory", 
-        "Super Power Battery Saver Pro", 
-        "Camera Block -Anti spy-malware", 
-        "Wifi Connect", 
-        "Cardboard"
-    ], 
-    "app_title": "Auto Clean"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
-    "similar_apps": [
-        "Popular Ringtones 2017 Free 🔥", 
-        "Latest Ringtones 2017 | New 🏆", 
-        "Cool Funny Ringtones 2017 😂", 
-        "Cute & sweetnes Ringtones 2017", 
-        "Ringtones for Whatsapp™ Sounds", 
-        "Top Ringtones for Android™", 
-        "Cool Ringtones 2017 | Top 100", 
-        "Ringtones for Whatsapp™", 
-        "Ringtones for IPhone™ 2017 🔥", 
-        "Scary Ringtones & Sounds 2017", 
-        "Instrumental Ringtones 2017", 
-        "Free Iphone™ 7 Ringtones Remix", 
-        "Old Phone Ringtones & Alarm ☎", 
-        "Wake up Alarm Ringtones 2017 ⏰", 
-        "Notifications Ringtones"
-    ], 
-    "app_title": "Top Ringtones for Oppo™ Remix"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  MX Player Codec for ARMv7 CPUs, including NVIDIA® Tegra™ 2. ", 
-    "similar_apps": [
-        "MX Player Codec (ARMv7)", 
-        "MX Player Codec (ARMv6 VFP)", 
-        "MX Player Codec (Tegra3)", 
-        "MX Player Codec (ARMv6)", 
-        "MX Player Codec (ARMv5)", 
-        "MX Player Codec (x86)", 
-        "Best ViMate Downloader guide", 
-        "Vide Made 2", 
-        "Version for Play Store - Demo", 
-        "ES Chromecast plugin", 
-        "Sound Mixer DJ Guide", 
-        "LIVE MAPS Guide", 
-        "All My... (Xposed Tweaks)", 
-        "Cardboard", 
-        "Fish Schooling VR"
-    ], 
-    "app_title": "MX Player Codec (ARMv7 NEON)"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Find VHosts, get Whois datas, DNS records, GeoIP datas with this tool. ", 
-    "similar_apps": [
-        "IP Tool", 
-        "VR Camera,VR CAM", 
-        "JSee", 
-        "Falcon IP Cam"
-    ], 
-    "app_title": "JCloud"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Auto Clear Memory is an application of cleaning and boost your phone very fast ", 
-    "similar_apps": [
-        "Auto Clear Memory"
-    ], 
-    "app_title": "Ram Clean Pro"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Big Collection of the best Instrumental Ringtones & Music for 2017 ", 
-    "similar_apps": [
-        "Instrumental Ringtones 2017", 
-        "Top Ringtones for Android™", 
-        "Latest Ringtones 2017 | New 🏆", 
-        "Cute & sweetnes Ringtones 2017", 
-        "Cool Funny Ringtones 2017 😂", 
-        "Scary Ringtones & Sounds 2017", 
-        "Ringtones for IPhone™ 2017 🔥", 
-        "Ringtones for Whatsapp™ Sounds", 
-        "Ringtones for Whatsapp™", 
-        "Top Ringtones for Oppo™ Remix", 
-        "Old Phone Ringtones & Alarm ☎", 
-        "Free Guitar Ringtones 2017 🎸", 
-        "Wake up Alarm Ringtones 2017 ⏰", 
-        "Free Iphone™ 7 Ringtones Remix"
-    ], 
-    "app_title": "Instrumental Ringtones 2017"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Improve the quality of your skill in playing the game point blank mobile ", 
-    "similar_apps": [
-        "Special Point Blank Mobile", 
-        "Guide for Exploration Lite 2", 
-        "New Free The Sims 4 Cheats", 
-        "Tips Dream League Soccer 2016"
-    ], 
-    "app_title": "New Freeplay Bima-X Tips"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Using Wireless Display,you can cast android mobile on miracast enabled TV ", 
-    "similar_apps": [
-        "Wifi Display (Miracast)", 
-        "Wifi Display (Miracast) Pro", 
-        "Usb Otg Help", 
-        "Car Remote Control", 
-        "media Recovery", 
-        "camera remote", 
-        "YIPC"
-    ], 
-    "app_title": "Wifi Display"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Simulator Hello Neighbor Tips take all the way through the game to completion ", 
-    "similar_apps": [
-        "Simulator Hello Neighbor Tips", 
-        "Real Yandere simulator Guide"
-    ], 
-    "app_title": "Real Yandere simulator Guide"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Feel free to use this guide / tutorial / Information for appsvn app. ", 
-    "similar_apps": [
-        "Appsvn Reference", 
-        "Guardian Game Reference", 
-        "тυтυ нelper reғereɴce", 
-        "Free APKPURE 2017 Tips"
-    ], 
-    "app_title": "Appsnvs Reference"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Feel free to use this guide / tutorial / Information for appnvs app. ", 
-    "similar_apps": [
-        "Appsnvs Reference", 
-        "Guardian Game Reference", 
-        "тυтυ нelper reғereɴce", 
-        "Free APKPURE 2017 Tips"
-    ], 
-    "app_title": "Appsvn Reference"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Download and enjoy the GAME !!! ", 
-    "similar_apps": [
-        "Free Hungry Shark Guide"
-    ], 
-    "app_title": "Free King of Fighters 97 Guide"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Simulation Hello Nighbor guide  It’s lots of fun and very challenging! ", 
-    "similar_apps": [
-        "Simulation Hello Nighbor guide"
-    ], 
-    "app_title": "Simulator Hello Neighbor Tips"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Download Now New Papas Cheeseria Go Guide and Enjoy ! ", 
-    "similar_apps": [
-        "Free MLB 9 Innings 17 Tip", 
-        "New Papas Cheeseria Go Guide", 
-        "Free Dynasty Warriors Guide", 
-        "Free Uber Driver App Guide", 
-        "Latest Just Dance 2017 Guide", 
-        "Latest Slugterra Slug It guide", 
-        "Latest Geometry Dash_lite Tips", 
-        "Latest Fifa 17 :League Tips", 
-        "Free Papa Louie To Go Tip"
-    ], 
-    "app_title": "Free MLB 9 Innings 17 Tip"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Feel free to use this guide / tutorial / Information for appsvn app. ", 
-    "similar_apps": [
-        "Appsvn Reference", 
-        "Appsnvs Reference", 
-        "Apk Installer"
-    ], 
-    "app_title": "Free APKPURE 2017 Tips"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  simulate the process of how to root android device this app is a prank ", 
-    "similar_apps": [
-        "Root All Devices - simulator", 
-        "New Lucky 2017 Guide", 
-        "CoolpadCatalyst Metro PCS Demo", 
-        "Coolpad Catalyst T-Mobile Demo", 
-        "Free Monster Motocross Guide", 
-        "Free Ben 10 Ultimate Guide", 
-        "Free Breath of the Wild Guide", 
-        "Face recognition", 
-        "Check Your Root"
-    ], 
-    "app_title": "Free Kingroot 2K17 Guide"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
-    "similar_apps": [
-        "Popular Ringtones 2017 Free 🔥", 
-        "Latest Ringtones 2017 | New 🏆", 
-        "Top Ringtones for Android™", 
-        "Ringtones for IPhone™ 2017 🔥", 
-        "Scary Ringtones & Sounds 2017", 
-        "Ringtones for Whatsapp™ Sounds", 
-        "Cute & sweetnes Ringtones 2017", 
-        "Top Ringtones for Oppo™ Remix", 
-        "Ringtones for Whatsapp™", 
-        "Cool Funny Ringtones 2017 😂", 
-        "Instrumental Ringtones 2017", 
-        "Old Phone Ringtones & Alarm ☎", 
-        "Free Iphone™ 7 Ringtones Remix", 
-        "Wake up Alarm Ringtones 2017 ⏰", 
-        "Free Guitar Ringtones 2017 🎸"
-    ], 
-    "app_title": "Instrumental Ringtones 2017"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Block access to microphone and cut off spyware apps & analyze security threats. ", 
-    "similar_apps": [
-        "Microphone Block -Anti malware", 
-        "Camera Block - Spyware protect", 
-        "zControl", 
-        "Camera Block -Anti spy-malware"
-    ], 
-    "app_title": "Microphone Block -Anti spyware"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  minecraft furniture design ", 
-    "similar_apps": [
-        "guide minecraft furniture", 
-        "Pet Ideas Minecraft"
-    ], 
-    "app_title": "step by step 3 minecraft"
-},{
-    "category": "Libraries & Demo", 
-    "description": "  Irish English Text-To-Speech Voice Caitlin from CereProc. ", 
-    "similar_apps": [
-        "Caitlin Irish TTS Voice", 
-        "William UK English TTS Voice", 
-        "Heather Scottish TTS Voice", 
-        "Katherine US English TTS Voice", 
-        "Jess North English TTS Voice", 
-        "Sarah UK English TTS Voice", 
-        "Lauren UK English TTS Voice", 
-        "Kirsty Scottish TTS Voice", 
-        "Idyacy Sexy French TTS Voice", 
-        "Ada Dutch TTS Voice", 
-        "Leopold Austrian TTS Voice", 
-        "Hannah US English TTS Voice", 
-        "Isabella US English TTS Voice", 
-        "Stuart Scottish TTS Voice", 
-        "Adam US English TTS Voice"
-    ], 
-    "app_title": "Yuki Japanese TTS Voice"
 },{
     "category": "Libraries & Demo", 
     "description": "  Design Principles for Virtual Reality ", 
@@ -1373,30 +1689,337 @@
         "Lanterns for Google Cardboard", 
         "Tuscany HD VR Cardobard", 
         "EON Experience VR", 
-        "VR StarTrooper Arena Fly"
+        "VR StarTrooper Arena Fly", 
+        "ViewR", 
+        "Face Recognition", 
+        "VR Space Walk", 
+        "MX Player Codec (ARMv7 NEON)", 
+        "All My... (Xposed Tweaks)", 
+        "Fireworks VR Show on Cardboard", 
+        "ASUS AiCam", 
+        "guide minecraft furniture", 
+        "GyroDroid", 
+        "MX Player Codec (ARMv7)", 
+        "IP Pro", 
+        "Popular Ringtones 2017 Free 🔥", 
+        "Real Hacker Demo", 
+        "Top Ringtones for Oppo™ Remix", 
+        "New Don't Stop Eighth Note Tip", 
+        "MX Player Codec (ARMv6 VFP)", 
+        "ES Chromecast plugin", 
+        "MX Player Codec (Tegra3)", 
+        "Gears", 
+        "Scandit Barcode Scanner Demo", 
+        "Manatee Works Barcode Scanner", 
+        "Cool Funny Ringtones 2017 😂", 
+        "MX Player Codec (ARMv6)", 
+        "MX Player Codec (ARMv5)", 
+        "MX Player Codec (x86)", 
+        "Sensor fusion", 
+        "InfoThink NFC Reader Demo", 
+        "Version for Play Store - Demo", 
+        "أغاني الرسوم المتحركة بدون نت", 
+        "Toyz Nerf Guns Collection", 
+        "Auto Clean", 
+        "PDF417 Barcode Scan Demo App", 
+        "API Demos for Android", 
+        "Cute & sweetnes Ringtones 2017"
     ], 
     "app_title": "Cardboard"
 },{
     "category": "Libraries & Demo", 
-    "description": "  Irish English Text-To-Speech Voice Caitlin from CereProc. ", 
+    "description": "  IP Pro IPC Pro，24 Hour Remote Video Surveillance Moblie Application ", 
     "similar_apps": [
-        "Caitlin Irish TTS Voice", 
-        "Katherine US English TTS Voice", 
-        "William UK English TTS Voice", 
-        "Sarah UK English TTS Voice", 
-        "Hannah US English TTS Voice", 
-        "Heather Scottish TTS Voice", 
-        "Jess North English TTS Voice", 
-        "Leopold Austrian TTS Voice", 
-        "Lauren UK English TTS Voice", 
-        "Kirsty Scottish TTS Voice", 
-        "Isabella US English TTS Voice", 
-        "Nathan US English TTS Voice", 
-        "Ada Dutch TTS Voice", 
-        "Suzanne French TTS Voice", 
-        "Jack UK English TTS Voice"
+        "IP Pro", 
+        "IP Tool", 
+        "VR Camera,VR CAM", 
+        "JSee", 
+        "Falcon IP Cam"
     ], 
-    "app_title": "Adam US English TTS Voice"
+    "app_title": "JCloud"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Shows Java Card applet installed on a contact-less Smart Card and tag info. ", 
+    "similar_apps": [
+        "NFC Smart Card Info", 
+        "CardTest", 
+        "PassportImageDecoder"
+    ], 
+    "app_title": "AusweisApp2"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Music Maniac Mp3 Player is a simple music player for Smartphones . ", 
+    "similar_apps": [
+        "Music Maniac Mp3 Player", 
+        "Key Library Ultimate Video", 
+        "Mp3 Music Player Classic", 
+        "Music Player With Lyrics", 
+        "Music Player Volume High", 
+        "Unlimited Player for Music", 
+        "Music Player Top", 
+        "Music Player Pro", 
+        "Music Player Mp3 Lyrics", 
+        "Music Player Mp3", 
+        "Music Player Equalizer", 
+        "Music Player Classic", 
+        "Music Player Best", 
+        "Music Player Bass Sounds Pro", 
+        "Music Player Bass Effect", 
+        "Music Player Acoustic Paradise", 
+        "Music Player Bass Booster", 
+        "Music Player 3D Surround Juice", 
+        "Music Player Ares 3D Sound", 
+        "Music Player Ark 3D Pro", 
+        "Music Player 3D", 
+        "Music Player", 
+        "Music Offline Player", 
+        "Music Hero Mp3 Player"
+    ], 
+    "app_title": "Key Library Ultimate Video"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  think fast and plant faster to have successful Plants vs Zombies Heroes strategy ", 
+    "similar_apps": [
+        "Walkthrough For Rolling Sky", 
+        "Guide Plants vs Zombies Heroes", 
+        "Walkthrough PES 2017 Free"
+    ], 
+    "app_title": "Walkthrough For Rolling Sky"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Auto Clear Memory is an application of cleaning and boost your phone very fast ", 
+    "similar_apps": [
+        "Auto Clear Memory"
+    ], 
+    "app_title": "Auto Clean"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  SDcard Recovery application help you to Recovery data on SD Card ", 
+    "similar_apps": [
+        "SDcards Recovery", 
+        "Car Remote Control", 
+        "camera remote", 
+        "Wifi Display", 
+        "Usb Otg Helper (root)"
+    ], 
+    "app_title": "media Recovery"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Big Collection of the best Instrumental Ringtones & Music for 2017 ", 
+    "similar_apps": [
+        "Instrumental Ringtones 2017", 
+        "Top Ringtones for Android™", 
+        "Latest Ringtones 2017 | New 🏆", 
+        "Cute & sweetnes Ringtones 2017", 
+        "Scary Ringtones & Sounds 2017", 
+        "Ringtones for IPhone™ 2017 🔥", 
+        "Ringtones for Whatsapp™ Sounds", 
+        "Top Ringtones for Oppo™ Remix", 
+        "Ringtones for Whatsapp™", 
+        "Old Phone Ringtones & Alarm ☎", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Free Iphone™ 7 Ringtones Remix", 
+        "Free Guitar Ringtones 2017 🎸", 
+        "Wake up Alarm Ringtones 2017 ⏰"
+    ], 
+    "app_title": "Instrumental Ringtones 2017"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Using Wireless Display,you can cast android mobile on miracast enabled TV ", 
+    "similar_apps": [
+        "Wifi Display (Miracast)", 
+        "Wifi Display (Miracast) Pro", 
+        "Usb Otg Helper (root)", 
+        "Car Remote Control", 
+        "media Recovery", 
+        "camera remote", 
+        "YIPC"
+    ], 
+    "app_title": "Wifi Display"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Our WiFi camera products can be used to achieve remote configuration camera ", 
+    "similar_apps": [
+        "V380s"
+    ], 
+    "app_title": "NCM"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Download the most popular 100 ringtones for sms & phone calls of 2017 for FREE ", 
+    "similar_apps": [
+        "Latest Ringtones 2017 | New 🏆", 
+        "Free Iphone™ 7 Ringtones Remix", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Cute & sweetnes Ringtones 2017", 
+        "Ringtones for IPhone™ 2017 🔥", 
+        "Top Ringtones for Oppo™ Remix", 
+        "Top Ringtones for Android™", 
+        "Old Phone Ringtones & Alarm ☎", 
+        "Scary Ringtones & Sounds 2017", 
+        "Ringtones for Whatsapp™ Sounds", 
+        "Instrumental Ringtones 2017", 
+        "Ringtones for Whatsapp™", 
+        "Wake up Alarm Ringtones 2017 ⏰"
+    ], 
+    "app_title": "Popular Ringtones 2017 Free"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Hack wtspp account of your friends and family Now, Free New App Prank For Fun ! ", 
+    "similar_apps": [
+        "Real Password Hacker Prank", 
+        "Wtsp Account Hacker Pro Prank"
+    ], 
+    "app_title": "Real Password Hacker Prank"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Guide Hungry Shark Evolution guide for play game what you want. les't Download!! ", 
+    "similar_apps": [
+        "Guide Hungry Shark Evolution", 
+        "Free King of Fighters 97 Guide", 
+        "All My... (Xposed Tweaks)"
+    ], 
+    "app_title": "Free Hungry Shark Guide"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  HDMI Reader For TV ", 
+    "similar_apps": [
+        "HDMI Reader", 
+        "Hdmi Connect", 
+        "HDMI Reader Pro", 
+        "Usb OTG Reader Pro", 
+        "Usb OTG Reader", 
+        "DVB-T Driver"
+    ], 
+    "app_title": "HDMI Reader Premium"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Feel free to use this guide / tutorial / Information for appnvs app. ", 
+    "similar_apps": [
+        "Appsnvs Reference", 
+        "Guardian Game Reference", 
+        "тυтυ нelper reғereɴce", 
+        "Free APKPURE 2017 Tips"
+    ], 
+    "app_title": "Appsvn Reference"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Improve the quality of your skill in playing the game point blank mobile ", 
+    "similar_apps": [
+        "Special Point Blank Mobile"
+    ], 
+    "app_title": "New Freeplay Bima-X Tips"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Do you know how a hacker app could be? ", 
+    "similar_apps": [
+        "Real Hacker Demo", 
+        "Cheat For Clash Of Clans Guide", 
+        "Lastest Maps Of Clash of Clans"
+    ], 
+    "app_title": "Cheat For Clash Of Clans Prank"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Download and enjoy the APP !!! ", 
+    "similar_apps": [
+        "Free Kingroot 2K17 Guide", 
+        "Free Monster Motocross Guide", 
+        "Free Breath of the Wild Guide"
+    ], 
+    "app_title": "Free Ben 10 Ultimate Guide"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Feel free to use this guide / tutorial / Information for appsvn app. ", 
+    "similar_apps": [
+        "Appsvn Reference", 
+        "Appsnvs Reference", 
+        "Apk Installer"
+    ], 
+    "app_title": "Free APKPURE 2017 Tips"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Download and enjoy the GAME !!! ", 
+    "similar_apps": [
+        "Free Hungry Shark Guide"
+    ], 
+    "app_title": "Free King of Fighters 97 Guide"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Video collection toy Nerf Guns ", 
+    "similar_apps": [
+        "Toyz Nerf Guns Collection"
+    ], 
+    "app_title": "Toy Gun 2017"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Simulator Hello Neighbor Tips take all the way through the game to completion ", 
+    "similar_apps": [
+        "Simulator Hello Neighbor Tips", 
+        "Real Yandere simulator Guide"
+    ], 
+    "app_title": "Real Yandere simulator Guide"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  simulate the process of how to root android device this app is a prank ", 
+    "similar_apps": [
+        "Root All Devices - simulator", 
+        "New Lucky 2017 Guide", 
+        "CoolpadCatalyst Metro PCS Demo", 
+        "Coolpad Catalyst T-Mobile Demo", 
+        "Free Monster Motocross Guide", 
+        "Free Ben 10 Ultimate Guide", 
+        "Free Breath of the Wild Guide", 
+        "Face recognition", 
+        "Check Your Root"
+    ], 
+    "app_title": "Free Kingroot 2K17 Guide"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Simulation Hello Nighbor guide  It’s lots of fun and very challenging! ", 
+    "similar_apps": [
+        "Simulation Hello Nighbor guide"
+    ], 
+    "app_title": "Simulator Hello Neighbor Tips"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Big Collection of the Best and the most famous Ringtones of 2017 for FREE ", 
+    "similar_apps": [
+        "Popular Ringtones 2017 Free 🔥", 
+        "Latest Ringtones 2017 | New 🏆", 
+        "Top Ringtones for Android™", 
+        "Scary Ringtones & Sounds 2017", 
+        "Ringtones for IPhone™ 2017 🔥", 
+        "Ringtones for Whatsapp™ Sounds", 
+        "Cute & sweetnes Ringtones 2017", 
+        "Top Ringtones for Oppo™ Remix", 
+        "Ringtones for Whatsapp™", 
+        "Old Phone Ringtones & Alarm ☎", 
+        "Instrumental Ringtones 2017", 
+        "Free Iphone™ 7 Ringtones Remix", 
+        "Cool Funny Ringtones 2017 😂", 
+        "Wake up Alarm Ringtones 2017 ⏰", 
+        "Free Guitar Ringtones 2017 🎸", 
+        "Cool Ringtones 2017 | Top 100", 
+        "Ringtones for Whatsapp™ 🔥", 
+        "Popular Ringtones 2017 Free"
+    ], 
+    "app_title": "Instrumental Ringtones 2017"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  Feel free to use this guide / tutorial / Information for appsvn app. ", 
+    "similar_apps": [
+        "Appsvn Reference", 
+        "Guardian Game Reference", 
+        "тυтυ нelper reғereɴce", 
+        "Free APKPURE 2017 Tips"
+    ], 
+    "app_title": "Appsnvs Reference"
+},{
+    "category": "Libraries & Demo", 
+    "description": "  minecraft furniture design ", 
+    "similar_apps": [
+        "guide minecraft furniture", 
+        "Pet Ideas Minecraft"
+    ], 
+    "app_title": "step by step 3 minecraft"
 }
-
 ]

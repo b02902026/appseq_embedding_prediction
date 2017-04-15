@@ -15,7 +15,7 @@ class QuotesSpider(scrapy.Spider):
 
     def parse(self,response):
 
-        for url in response.xpath('//div[@class="dropdown-submenu"]/ul/li[@class="action-dropdown-outer-list-item list-item"]')[1:]:
+        for url in response.xpath('//div[@class="dropdown-submenu"]/ul/li[@class="action-dropdown-outer-list-item list-item"]'):
             for cat in url.xpath('ul/li[@class="child-submenu-link-wrapper"]/a[@class="child-submenu-link"]'):
                 cat_name = cat.xpath('text()')[0].extract()
                 cat_url = "https://play.google.com" + cat.xpath('@href')[0].extract()
@@ -66,7 +66,7 @@ class QuotesSpider(scrapy.Spider):
         myItem['description'] = response.meta["d"]
         sim_dict = []
         try:
-            for app_obj in response.xpath('//div[@class="card no-rationale square-cover apps small"]/div[@class="card-content id-track-click id-track-impression"]')[:15]:
+            for app_obj in response.xpath('//div[@class="card no-rationale square-cover apps small"]/div[@class="card-content id-track-click id-track-impression"]'):
                 title = app_obj.xpath('div[@class="details"]/a[@class="title"]/text()')[0].extract()
             #description = app_obj.xpath('div[@class="details"]/div[@class="description"]/text()')[0].extract()
             #description = "".join(description)
