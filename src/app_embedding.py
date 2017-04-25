@@ -4,6 +4,7 @@ from keras.preprocessing import sequence
 from keras.models import Sequential
 from keras.layers import Dense, Embedding
 
+from emb_model import build_model
 import argparse
 
 def train_main(opts):
