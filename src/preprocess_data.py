@@ -4,7 +4,10 @@ from os import listdir
 from os.path import isfile, join
 
 # a version without description
-
+# this script read all json file from scrapy and turn them to x and y
+# x is proceeding app name
+# y is similar app names
+# they put in file x and y line by line
 
 if len(sys.argv) >=2 and sys.argv[1] == '-h':
     print('Usage: python3 preporcess_data.py [DATA_DIR_PATH]')
