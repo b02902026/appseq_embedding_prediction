@@ -5,6 +5,7 @@ import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import re, math
+from adjustText import adjust_text
 
 import json
 from sklearn.manifold import TSNE
@@ -18,7 +19,12 @@ interested_list = [
     'LINE: Free Calls & Messages', 
     'Skype - free IM & video calls', 
     'Messenger',
-    'WhatsUp Messenger'
+    'WhatsUp Messenger',
+    'YouTube',
+    'WeChat',
+    'Uber', 
+    'NBA 2K17', 
+    'ZALORA Fashion Shopping'
 ]
 
 def main():
@@ -30,13 +36,20 @@ def main():
     tsne = TSNE(n_components=2, random_state=0)
     np.set_printoptions(suppress=True)
     Y = tsne.fit_transform(wv)
-        
-    plt.scatter(Y[:, 0], Y[:, 1])
+    x_list, y_list = [], [] 
+    for label, x, y in zip(vocabulary, Y[:, 0], Y[:, 1]):
+        if label in interested_list:
+            x_list.append(x); y_list.append(y)
+    print(Y[:, 0])
+    print(x_list)
+    plt.scatter(x_list, y_list, c='white')
+    texts = []
     for label, x, y in zip(vocabulary, Y[:, 0], Y[:, 1]):
         if label in interested_list:
             print(label)
-            plt.annotate(label, xy=(x, y), xytext=(0, 0),
-                         textcoords='offset points')
+            texts.append(plt.text(x, y, label, size=15, color='blue'))
+    plt.title(str(adjust_text(texts, arrowprops=dict(arrowstyle="->", color='r',
+                                                     lw=0.5)))+' iterations')
     #plt.show()
     plt.savefig(output_path)
     with codecs.open('app_embedding.txt', 'w', 'utf-8') as fout:
@@ -46,7 +59,6 @@ def main():
             print(label, x, y)
             fout.write('\t'.join([label, str(x), str(y)])+'\n')
     print('finish output app_embedding.txt')
-
     
 
 
@@ -67,13 +79,11 @@ def load_embeddings(emb_file, voc_file):
             return_voc.append(app_name)
         except KeyError:
             pass
-
     for i in range(0, 1000):
         if vocabulary[i] in interested_list:
             continue
         return_wv.append(wv[i])
         return_voc.append(vocabulary[i])
-
 
     return return_wv, return_voc
  
