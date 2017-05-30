@@ -1,0 +1,29 @@
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:4px !important; 
+    padding-bottom:0 !important;
+    height: 20px;
+}
+.navbar {min-height:20px !important;}
+/* navbar */
+.navbar-default {
+    background-color: #1B0F2E;
+    border-color: #E7E7E7;
+}
+
+#sidebar {
+    border-right: thick solid #43adbc;
+    background-color: #8dcfd8;
+    height: 100vh;
+}
+
+#app_list_area {
+    overflow-y: scroll;
+    max-height: 90%;
+}
+ 
+#visualize_area {
+    height: 100vh;
+    background-color: #e5e5e5;
+}
+
+
