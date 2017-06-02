@@ -64,10 +64,16 @@ def train_main(opts):
             context_desc_list.append(desc_map[c])
             p = idx2app[str(p)]
             c = idx2app[str(c)]
-            multihot_p = np.array([vocab[hot] for hot in p.split()])
-            multihot_c = np.array([vocab[hot] for hot in c.split()])
-            short_proceed_list.append(multihot_p)
-            short_context_list.append(multihot_c)
+            hots = lambda x: [vocab[i] for i in x]
+            multihot_p = np.zeros(desc_vocab_size)
+            multihot_c = np.zeros(desc_vocab_size)
+            for w in hots(p.split()):
+                multihot_p[w] = 1
+            for w in hots(c.split()):
+                multihot_c[w] = 1
+                
+            short_proceed_list.append(multihot_p.copy())
+            short_context_list.append(multihot_c.copy())
             short_label_list.append(l)
 
     del proceed_list
@@ -94,17 +100,28 @@ def train_main(opts):
     print('starting training')
 
     model.fit([short_proceed_list, short_context_list, proceed_desc_list, context_desc_list], short_label_list, batch_size=256,
-              epochs=180, verbose=1, callbacks=None, shuffle=True)
+              epochs=10, verbose=1, callbacks=None, shuffle=True)
 
 
     model.save_weights('../model/app_embedding_weight.hd5')
 
-    embedding_weight = model.layers[5].get_weights()
-    print(embedding_weight)
-    print('shape of embedding_weight is {}'.format(embedding_weight[0].shape))
+    #embedding_weight = model.layers[5].get_weights()
+    #print(embedding_weight)
+    #print('shape of embedding_weight is {}'.format(embedding_weight[0].shape))     
 
+    model2 = build_desc_model(opts,desc_maxlen,desc_vocab_size,mode='test')
+    w = {}
+    for layer in model.layers:
+        w[layer.name] = layer.get_weights()
+    for layer in model2.layers:
+        if layer.name in w:
+            layer.set_weights(w[layer.name])
+    
+    emb = model2.predict([short_proceed_list, short_context_list, proceed_desc_list, context_desc_list])
     with open(os.path.join('../save_vector/', 'app_vector.npy'), 'wb') as f:
-        np.savetxt(f, embedding_weight[0])
+        np.savetxt(f, emb)
+    with open(os.path.join('../data/training/','train_index_map.npy'),'wb') as f:
+        np.savetxt(f,short_proceed_list)
 
     K.clear_session()
     return
