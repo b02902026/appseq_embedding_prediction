@@ -27,7 +27,7 @@ def dump_np(np_arr, file_name):
 
 def process_desc(app2idx):
     d = load_json('../data/')
-    v = make_vocab(d)
+    v, _ = make_vocab(d)
     h = word2idx(d,v,app2idx)
     maxlen, h2 = get_padding(h,v)
     return [h2,len(v),maxlen]
@@ -47,9 +47,13 @@ def train_main(opts):
     #print(label_list)
     #print(label_list.shape)
     #--------add desc-----------
-    map_path = '../data/training/app_index_map'
-    with open(map_path,'r',encoding='utf-8', errors='ignore') as f:
+    map_path = '../data/training/'
+    with open(map_path + 'app_index_map','r',encoding='utf-8', errors='ignore') as f:
         app2idx = json.load(f)
+
+    with open(map_path + 'index_app_map','r',encoding='utf-8', errors='ignore') as f:
+        idx2app = json.load(f)
+
     desc_map,desc_vocab_size,desc_maxlen = process_desc(app2idx)
     print('desc vocab size:',desc_vocab_size)
     short_proceed_list,short_context_list, proceed_desc_list, context_desc_list = [],[],[],[]
@@ -58,9 +62,14 @@ def train_main(opts):
         if p in desc_map and c in desc_map:
             proceed_desc_list.append(desc_map[p])
             context_desc_list.append(desc_map[c])
-            short_proceed_list.append(p)
-            short_context_list.append(c)
+            p = idx2app[p]
+            c = idx2app[c]
+            multihot_p = np.array([vocab[hot] for hot in p.split()])
+            multihot_c = np.array([vocab[hot] for hot in c.split()])
+            short_proceed_list.append(multihot_p)
+            short_context_list.append(multihot_c)
             short_label_list.append(l)
+
     del proceed_list
     del context_list
     del label_list

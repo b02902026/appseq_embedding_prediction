@@ -10,10 +10,10 @@ window_size = [2,3,5]
 def build_desc_model(opts,desc_maxlen,vocab_size):
 
     embedding_layer = Embedding(output_dim=100, input_dim=opts['vocab_size'])
-    proceed_input = Input(shape=(1,), dtype='int32', name='proceed_input')
-    context_input = Input(shape=(1,), dtype='int32', name='context_input')
-    proceed_emb = embedding_layer(proceed_input)
-    context_emb = embedding_layer(context_input)
+    proceed_input = Input(shape=(vocab_size,), dtype='int32', name='proceed_input')
+    context_input = Input(shape=(vocab_size,), dtype='int32', name='context_input')
+    proceed_emb = Dense(128, name='proceed_multi')(proceed_input)
+    context_emb = Dense(128, name='context_multi')(context_input)
     proceed_emb = Flatten()(proceed_emb)
     context_emb = Flatten()(context_emb)
     # incorporate desc information (using cnn)

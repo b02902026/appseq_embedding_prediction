@@ -13,6 +13,8 @@ def load_json(json_path):
     description_dict = {}
     for files in os.listdir(json_path):
         #print(files)
+        if files != 'popilar.json':
+            continue
         files  = json_path + files
         if os.path.isfile(files):
             print(files)
@@ -30,11 +32,23 @@ def load_json(json_path):
 
 def make_vocab(description):
 
-    with open('../data/training/app_index_map','r',encoding='utf-8', errors='ignore') as f:
-        vocab = json.load(f)
+    #with open('../data/training/app_index_map','r',encoding='utf-8', errors='ignore') as f:
+    #    vocab = json.load(f)
 
+    vocab = {}
+    _max_name_len = 0
     counter = len(vocab)
-    for sentence in description.values():
+    for name, sentence in description.items():
+        words = name.strip().split()
+        if len(words) > _max_name_len:
+            _max_name_len = len(words)
+        # add name in vocab
+        for w in words:
+            if w not in vocab:
+                vocab[w] = counter
+                counter += 1
+
+        # add description in vocab
         for word in sentence:
             if word not in vocab:
                 vocab[word] = counter
@@ -42,7 +56,7 @@ def make_vocab(description):
 
     #dump_dict(vocab, 'description_vocab.pkl')
     vocab['<PAD>'] = counter
-    return vocab
+    return vocab, _max_word_len
 
 def word2idx(description_dict, vocab, mapping):
 
