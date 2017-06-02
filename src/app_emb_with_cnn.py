@@ -30,7 +30,7 @@ def process_desc(app2idx):
     v, _ = make_vocab(d)
     h = word2idx(d,v,app2idx)
     maxlen, h2 = get_padding(h,v)
-    return [h2,len(v),maxlen]
+    return [h2,len(v),maxlen,v]
 
 def train_main(opts):
     K.clear_session()
@@ -54,7 +54,7 @@ def train_main(opts):
     with open(map_path + 'index_app_map','r',encoding='utf-8', errors='ignore') as f:
         idx2app = json.load(f)
 
-    desc_map,desc_vocab_size,desc_maxlen = process_desc(app2idx)
+    desc_map,desc_vocab_size,desc_maxlen, vocab = process_desc(app2idx)
     print('desc vocab size:',desc_vocab_size)
     short_proceed_list,short_context_list, proceed_desc_list, context_desc_list = [],[],[],[]
     short_label_list = []
@@ -62,8 +62,8 @@ def train_main(opts):
         if p in desc_map and c in desc_map:
             proceed_desc_list.append(desc_map[p])
             context_desc_list.append(desc_map[c])
-            p = idx2app[p]
-            c = idx2app[c]
+            p = idx2app[str(p)]
+            c = idx2app[str(c)]
             multihot_p = np.array([vocab[hot] for hot in p.split()])
             multihot_c = np.array([vocab[hot] for hot in c.split()])
             short_proceed_list.append(multihot_p)

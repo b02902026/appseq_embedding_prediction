@@ -23,8 +23,10 @@ json_files = [join(DATA_DIR_PATH, f) for f in listdir(DATA_DIR_PATH) if isfile(j
 app_relation_dict = {}
 
 for json_file in json_files:
+    if not json_file.endswith('.json'):
+        continue
     with open(json_file, 'r', encoding='utf-8', errors='ignore') as f:
-        #print('now preceeding file {}'.format(json_file))
+        print('now preceeding file {}'.format(json_file))
         data_list = json.load(f)
         for data in data_list:
             app = data['app_title']

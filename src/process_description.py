@@ -13,7 +13,7 @@ def load_json(json_path):
     description_dict = {}
     for files in os.listdir(json_path):
         #print(files)
-        if files != 'popilar.json':
+        if files != 'popular.json':
             continue
         files  = json_path + files
         if os.path.isfile(files):
@@ -56,7 +56,7 @@ def make_vocab(description):
 
     #dump_dict(vocab, 'description_vocab.pkl')
     vocab['<PAD>'] = counter
-    return vocab, _max_word_len
+    return vocab, _max_name_len
 
 def word2idx(description_dict, vocab, mapping):
 
