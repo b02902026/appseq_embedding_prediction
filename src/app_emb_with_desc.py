@@ -77,7 +77,7 @@ def train_main(opts):
     print('building model...')
     model = build_desc_model(opts,desc_maxlen,desc_vocab_size)
     model.summary()
-    model.compile(optimizer='sgd',
+    model.compile(optimizer='rmsprop',
                 loss='binary_crossentropy',
                 metrics=['accuracy'])
 
@@ -85,12 +85,12 @@ def train_main(opts):
     print('starting training')
 
     model.fit([short_proceed_list, short_context_list, proceed_desc_list, context_desc_list], short_label_list, batch_size=256,
-              epochs=500, verbose=1, callbacks=None, shuffle=True)
+              epochs=180, verbose=1, callbacks=None, shuffle=True)
 
 
     model.save_weights('../model/app_embedding_weight.hd5')
 
-    embedding_weight = model.layers[2].get_weights()
+    embedding_weight = model.layers[5].get_weights()
     print(embedding_weight)
     print('shape of embedding_weight is {}'.format(embedding_weight[0].shape))
 
