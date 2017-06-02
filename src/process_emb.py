@@ -10,19 +10,31 @@ import json
 from sklearn.manifold import TSNE
 
 interested_list = [
-    'Kik', 
-    'LINE: Free Calls & Messages', 
-    'Skype - free IM & video calls', 
+    'Kik',
+    'LINE: Free Calls & Messages',
+    'Skype - free IM & video calls',
     'Messenger',
     'WhatsUp Messenger',
     'WeChat',
-    'ZALORA Fashion Shopping', 
-    'Uber', 
+    'ZALORA Fashion Shopping',
+    'Uber',
     'NBA 2K17'
 ]
 
-def output_embedding_image(emb_file_path='../save_vector/app_vector.npy', 
-                           word_index_map='../data/training/app_index_map', 
+interested_list = get_app_name_from_popular('../data/popular.json')
+
+def get_app_name_from_popular(json_file_path):
+    return_list = []
+    with codecs.open(json_file_path, 'r', 'utf-8') as f_in:
+        obj_list = json.load(json_file_path)
+        for obj in obj_list:
+            if obj['app_title'] not in return_list:
+                return_list.append(obj['app_title'])
+    return return_list
+
+
+def output_embedding_image(emb_file_path='../save_vector/app_vector.npy',
+                           word_index_map='../data/training/app_index_map',
                            output_image_path='../emb_image/embedding_image.png',
                            interested_list=interested_list):
     # load embedding from file, then save the dim-reducted image.
@@ -30,7 +42,7 @@ def output_embedding_image(emb_file_path='../save_vector/app_vector.npy',
     tsne = TSNE(n_components=2, random_state=0)
     np.set_printoptions(suppress=True)
     Y = tsne.fit_transform(wv)
-    x_list, y_list = [], [] 
+    x_list, y_list = [], []
     for label, x, y in zip(vocabulary, Y[:, 0], Y[:, 1]):
         if label in interested_list:
             x_list.append(x); y_list.append(y)
@@ -48,8 +60,8 @@ def output_embedding_image(emb_file_path='../save_vector/app_vector.npy',
     plt.savefig(output_image_path)
     return
 
-def save_app_emb_for_web(emb_file_path='../save_vector/app_vector.npy', 
-                           word_index_map='../data/training/app_index_map', 
+def save_app_emb_for_web(emb_file_path='../save_vector/app_vector.npy',
+                           word_index_map='../data/training/app_index_map',
                            output_file_path='../web/app_emb_txt.js'):
     wv, vocabulary = load_embeddings(emb_file_path, word_index_map)
 
@@ -74,7 +86,7 @@ def main():
     tsne = TSNE(n_components=2, random_state=0)
     np.set_printoptions(suppress=True)
     Y = tsne.fit_transform(wv)
-    x_list, y_list = [], [] 
+    x_list, y_list = [], []
     for label, x, y in zip(vocabulary, Y[:, 0], Y[:, 1]):
         if label in interested_list:
             x_list.append(x); y_list.append(y)
@@ -97,10 +109,10 @@ def main():
             print(label, x, y)
             fout.write('$,$'.join([label, str(x), str(y)])+'\n')
     print('finish output app_embedding.txt')
-    
 
 
- 
+
+
 def load_embeddings(emb_file, voc_file):
 
     return_wv = []
@@ -124,7 +136,7 @@ def load_embeddings(emb_file, voc_file):
         return_voc.append(vocabulary[i])
 
     return return_wv, return_voc
- 
+
 if __name__ == '__main__':
     if len(sys.argv) != 4:
         print('python3 process_emb.py embedding_file_path word_index_map output_path')
