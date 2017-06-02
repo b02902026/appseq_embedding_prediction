@@ -12,15 +12,14 @@ def dump_dict(obj,file_name):
 def load_json(json_path):
     description_dict = {}
     for files in os.listdir(json_path):
-        #print(files)
-        if files != 'popular.json':
-            continue
+        print(files)
+        #if files != 'popular.json':
+        #    continue
         files  = json_path + files
-        if os.path.isfile(files):
-            print(files)
+        if os.path.isfile(files) and files.find('.json') != -1:
             with open(files,'r', encoding='utf-8', errors='ignore') as f:
                 obj = json.load(f)
-                print(len(obj))
+                #print('#app',len(obj))
                 for app in obj:
                     app_name = app['app_title'].replace('\n','')
                     if app_name not in description_dict:

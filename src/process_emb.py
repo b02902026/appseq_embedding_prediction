@@ -21,16 +21,17 @@ interested_list = [
     'NBA 2K17'
 ]
 
-interested_list = get_app_name_from_popular('../data/popular.json')
-
 def get_app_name_from_popular(json_file_path):
     return_list = []
     with codecs.open(json_file_path, 'r', 'utf-8') as f_in:
-        obj_list = json.load(json_file_path)
+        obj_list = json.load(f_in)
         for obj in obj_list:
             if obj['app_title'] not in return_list:
                 return_list.append(obj['app_title'])
     return return_list
+
+#interested_list = get_app_name_from_popular('../data/popular.json')
+
 
 
 def output_embedding_image(emb_file_path='../save_vector/app_vector.npy',
@@ -127,7 +128,7 @@ def load_embeddings(emb_file, voc_file):
         try:
             return_wv.append(wv[voc_dict[app_name]])
             return_voc.append(app_name)
-        except KeyError:
+        except:
             pass
     for i in range(0, 1000):
         if vocabulary[i] in interested_list:
