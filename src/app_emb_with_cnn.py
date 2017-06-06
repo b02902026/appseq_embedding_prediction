@@ -58,10 +58,12 @@ def train_main(opts):
     print('desc vocab size:',desc_vocab_size)
     short_proceed_list,short_context_list, proceed_desc_list, context_desc_list = [],[],[],[]
     short_label_list = []
+    save_idx=[]
     for p,c,l in zip(proceed_list,context_list,label_list):
         if p in desc_map and c in desc_map:
             proceed_desc_list.append(desc_map[p])
             context_desc_list.append(desc_map[c])
+            save_idx.append(p)
             p = idx2app[str(p)]
             c = idx2app[str(c)]
             hots = lambda x: [vocab[i] for i in x]
@@ -100,7 +102,7 @@ def train_main(opts):
     print('starting training')
 
     model.fit([short_proceed_list, short_context_list, proceed_desc_list, context_desc_list], short_label_list, batch_size=256,
-              epochs=10, verbose=1, callbacks=None, shuffle=True)
+              epochs=10000, verbose=1, callbacks=None, shuffle=True)
 
 
     model.save_weights('../model/app_embedding_weight.hd5')
@@ -109,7 +111,7 @@ def train_main(opts):
     #print(embedding_weight)
     #print('shape of embedding_weight is {}'.format(embedding_weight[0].shape))     
 
-    model2 = build_desc_model(opts,desc_maxlen,desc_vocab_size,mode='test')
+    model2 = build_desc_model(opts,desc_maxlen,desc_vocab_size, 'test')
     w = {}
     for layer in model.layers:
         w[layer.name] = layer.get_weights()
@@ -120,8 +122,9 @@ def train_main(opts):
     emb = model2.predict([short_proceed_list, short_context_list, proceed_desc_list, context_desc_list])
     with open(os.path.join('../save_vector/', 'app_vector.npy'), 'wb') as f:
         np.savetxt(f, emb)
+    print(len(save_idx))
     with open(os.path.join('../data/training/','train_index_map.npy'),'wb') as f:
-        np.savetxt(f,short_proceed_list)
+        np.savetxt(f,save_idx)
 
     K.clear_session()
     return
