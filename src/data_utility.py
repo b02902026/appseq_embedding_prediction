@@ -132,7 +132,7 @@ def generate_data(opts):
                 # sample a negative similar app by wieght.
                 while True:
                     sample_index = choice(app_index_list, p=app_prob_list)
-                    if sample_index not in similar_list:
+                    if sample_index not in similar_list and int(sample_index) != int(proceed_app):
                         couple_list.append((proceed_app, sample_index))
                         label_list.append(0)
                         break
