@@ -16,6 +16,7 @@ DATA_DIR_PATH = sys.argv[1] if len(sys.argv) >= 2 else '../data'
 USE_DESCRIPTION = False
 
 json_files = [join(DATA_DIR_PATH, f) for f in listdir(DATA_DIR_PATH) if isfile(join(DATA_DIR_PATH, f))]
+json_files = [join(DATA_DIR_PATH, 'popular.json')]
 
 
 # key: proceeding app name

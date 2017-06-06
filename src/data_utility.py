@@ -128,7 +128,7 @@ def generate_data(opts):
             for similar_app in similar_list:
                 couple_list.append((proceed_app, similar_app))
                 label_list.append(1)
-            for i in range(0, min(len(similar_list), 2)):
+            for i in range(0, 5):
                 # sample a negative similar app by wieght.
                 while True:
                     sample_index = choice(app_index_list, p=app_prob_list)

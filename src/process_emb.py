@@ -18,7 +18,13 @@ interested_list = [
     'WeChat',
     'ZALORA Fashion Shopping',
     'Uber',
-    'NBA 2K17'
+    'NBA 2K17', 
+    'CCleaner', 
+    'Cleaner', 
+    'Firefox Browser fast & private', 
+    'Opera browser - latest news', 
+    'Chrome Dev', 
+    'UC Browser Mini-Tiny and Fast'
 ]
 
 def get_app_name_from_popular(json_file_path):
@@ -82,7 +88,10 @@ def main():
     embeddings_file = sys.argv[1]
     word_index_map = sys.argv[2]
     output_path = sys.argv[3]
-    wv, vocabulary = load_embeddings(embeddings_file, word_index_map)
+    dict_type = 'old'
+    if len(sys.argv) >= 5:
+        dict_type = sys.argv[4]
+    wv, vocabulary = load_embeddings(embeddings_file, word_index_map, dict_type)
 
     tsne = TSNE(n_components=2, random_state=0)
     np.set_printoptions(suppress=True)
@@ -111,10 +120,22 @@ def main():
             fout.write('$,$'.join([label, str(x), str(y)])+'\n')
     print('finish output app_embedding.txt')
 
+def get_app_id_to_row_map(train_index_map_path='../data/training/train_index_map.npy'):
+    print('before load trian_index_map')
+    with open(train_index_map_path, 'r') as f:
+        train_index_map = np.loadtxt(f)
+    print('after load train_index_map')
+    app_id_to_row_map = {}
+    added_list = []
+    row_id = 0
+    for app_id in train_index_map:
+        if app_id not in added_list:
+            added_list.append(app_id)
+            app_id_to_row_map[str(int(app_id))] = int(row_id)
+        row_id += 1
+    return app_id_to_row_map
 
-
-
-def load_embeddings(emb_file, voc_file):
+def load_embeddings(emb_file, voc_file, dict_type):
 
     return_wv = []
     return_voc = []
@@ -124,18 +145,33 @@ def load_embeddings(emb_file, voc_file):
         voc_dict = json.load(f_in)
         vocabulary = list(voc_dict.keys())
 
-    for app_name in interested_list:
-        try:
-            return_wv.append(wv[voc_dict[app_name]])
-            return_voc.append(app_name)
-        except:
-            pass
+    if dict_type == 'new':
+        app_id_to_row_list = get_app_id_to_row_map()
+        print(app_id_to_row_list)
+        #exit()
+        for app_name in interested_list:
+            try:
+                return_wv.append(wv[app_id_to_row_list[str(voc_dict[app_name])]])
+                return_voc.append(app_name)
+            except:
+                pass
+    else:
+        for app_name in interested_list:
+            try:
+                return_wv.append(wv[voc_dict[app_name]])
+                return_voc.append(app_name)
+            except:
+                pass
     for i in range(0, 1000):
         if vocabulary[i] in interested_list:
             continue
-        return_wv.append(wv[i])
-        return_voc.append(vocabulary[i])
-
+        try:
+            return_wv.append(wv[app_id_to_row_list[str(i)]])
+            return_voc.append(vocabulary[i])
+        except:
+            pass
+    #print(return_wv)
+    #print(return_voc)
     return return_wv, return_voc
 
 if __name__ == '__main__':
