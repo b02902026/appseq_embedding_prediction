@@ -7,7 +7,11 @@
 /* navbar */
 .navbar-default {
     background-color: #1B0F2E;
-    border-color: #E7E7E7;
+    border-color: #faf1f3;
+}
+
+.btn-select {
+    background-color: yellow;
 }
 
 #sidebar {
