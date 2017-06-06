@@ -13,8 +13,8 @@ def load_json(json_path):
     description_dict = {}
     for files in os.listdir(json_path):
         print(files)
-        #if files != 'popular.json':
-        #    continue
+        if files != 'popular.json':
+            continue
         files  = json_path + files
         if os.path.isfile(files) and files.find('.json') != -1:
             with open(files,'r', encoding='utf-8', errors='ignore') as f:
