@@ -29,12 +29,15 @@ def load_json(json_path):
     print(len(description_dict))
     return description_dict
 
-def make_vocab(description):
+def make_vocab(description,mode='cnn'):
 
     #with open('../data/training/app_index_map','r',encoding='utf-8', errors='ignore') as f:
     #    vocab = json.load(f)
-
     vocab = {}
+    if mode == 'rnn':
+        with open('../data/training/app_index_map','r',encoding='utf-8', errors='ignore') as f:
+            vocab = json.load(f)
+        
     _max_name_len = 0
     counter = len(vocab)
     for name, sentence in description.items():
@@ -60,8 +63,8 @@ def make_vocab(description):
 def word2idx(description_dict, vocab, mapping):
 
     one_hot = {}
-    print('map len', len(mapping))
-    print('dict len', len(description_dict))
+    print('map len', len(mapping), type(mapping))
+    print('dict len', len(description_dict), type(description_dict))
     for name, sentence in description_dict.items():
         name_id = mapping[name]
         one_hot[name_id] = []
