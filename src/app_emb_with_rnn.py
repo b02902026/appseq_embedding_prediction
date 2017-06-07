@@ -8,7 +8,7 @@ import keras.backend.tensorflow_backend as KTF
 from keras import backend as K
 
 from process_description import load_json, make_vocab, word2idx, get_padding
-from cnn_model import build_desc_model
+from description_model import build_desc_model
 from emb_model import build_model
 import data_utility
 import argparse
@@ -63,19 +63,8 @@ def train_main(opts):
         if p in desc_map and c in desc_map:
             proceed_desc_list.append(desc_map[p])
             context_desc_list.append(desc_map[c])
-            save_idx.append(p)
-            p = idx2app[str(p)]
-            c = idx2app[str(c)]
-            hots = lambda x: [vocab[i] for i in x]
-            multihot_p = np.zeros(desc_vocab_size)
-            multihot_c = np.zeros(desc_vocab_size)
-            for w in hots(p.split()):
-                multihot_p[w] = 1
-            for w in hots(c.split()):
-                multihot_c[w] = 1
-                
-            short_proceed_list.append(multihot_p.copy())
-            short_context_list.append(multihot_c.copy())
+            short_proceed_list.append(p)
+            short_context_list.append(c)
             short_label_list.append(l)
 
     del proceed_list
@@ -92,7 +81,7 @@ def train_main(opts):
     #print('shapes',proceed_desc_list[0],context_desc_list[0],short_proceed_list[0],short_context_list[0])
     #---------------------------
     print('building model...')
-    model = build_desc_model(opts,desc_maxlen,desc_vocab_size,256)
+    model = build_desc_model(opts,desc_maxlen,desc_vocab_size)
     model.summary()
     model.compile(optimizer='rmsprop',
                 loss='binary_crossentropy',
@@ -102,30 +91,22 @@ def train_main(opts):
     print('starting training')
 
     model.fit([short_proceed_list, short_context_list, proceed_desc_list, context_desc_list], short_label_list, batch_size=256,
-              epochs=1000, verbose=1, callbacks=None, shuffle=True)
+              epochs=500, verbose=1, callbacks=None, shuffle=True)
 
 
     model.save_weights('../model/app_embedding_weight.hd5')
 
-    #embedding_weight = model.layers[5].get_weights()
-    #print(embedding_weight)
-    #print('shape of embedding_weight is {}'.format(embedding_weight[0].shape))     
+    embedding_weight = model.layers[4].get_weights()
+    print(embedding_weight)
+    print('shape of embedding_weight is {}'.format(embedding_weight[0].shape))     
 
-    model2 = build_desc_model(opts,desc_maxlen,desc_vocab_size, 256,'test')
-    w = {}
-    for layer in model.layers:
-        w[layer.name] = layer.get_weights()
-    for layer in model2.layers:
-        if layer.name in w:
-            layer.set_weights(w[layer.name])
-    
-    emb = model2.predict([short_proceed_list, short_context_list, proceed_desc_list, context_desc_list])
     with open(os.path.join('../save_vector/', 'app_vector.npy'), 'wb') as f:
-        np.savetxt(f, emb)
+        np.savetxt(f, embedding_weight[0])
     print(len(save_idx))
+    '''
     with open(os.path.join('../data/training/','train_index_map.npy'),'wb') as f:
         np.savetxt(f,save_idx)
-
+    '''
     K.clear_session()
     return
 

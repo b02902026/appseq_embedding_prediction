@@ -4,10 +4,11 @@ from keras.layers.convolutional import Conv1D
 from keras.layers.pooling import MaxPooling1D
 from keras.layers.merge import concatenate,dot, multiply
 from keras import backend as K
-
+import tensorflow as tf
+import numpy as np
 window_size = [2,3,5]
 
-def build_desc_model(opts,desc_maxlen,vocab_size, mode='train'):
+def build_desc_model(opts,desc_maxlen,vocab_size,batch_size, mode='train'):
 
     #embedding_layer = Embedding(output_dim=100, input_dim=opts['vocab_size'])
     name_embedding = Dense(100,use_bias=False, name='name_embedding')
