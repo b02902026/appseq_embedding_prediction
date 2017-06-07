@@ -44,9 +44,10 @@ def get_app_name_from_popular(json_file_path):
 def output_embedding_image(emb_file_path='../save_vector/app_vector.npy',
                            word_index_map='../data/training/app_index_map',
                            output_image_path='../emb_image/embedding_image.png',
-                           interested_list=interested_list):
+                           interested_list=interested_list,
+                          name_extend='',dict_type='old'):
     # load embedding from file, then save the dim-reducted image.
-    wv, vocabulary = load_embeddings(emb_file_path, word_index_map)
+    wv, vocabulary = load_embeddings(emb_file_path, word_index_map, dict_type)
     tsne = TSNE(n_components=2, random_state=0)
     np.set_printoptions(suppress=True)
     Y = tsne.fit_transform(wv)
@@ -65,7 +66,7 @@ def output_embedding_image(emb_file_path='../save_vector/app_vector.npy',
     plt.title(str(adjust_text(texts, arrowprops=dict(arrowstyle="->", color='r',
                                                      lw=0.5)))+' iterations')
     #plt.show()
-    plt.savefig(output_image_path)
+    plt.savefig(output_image_path[:-4] + name_extend + '.png')
     return
 
 def save_app_emb_for_web(emb_file_path='../save_vector/app_vector.npy',
