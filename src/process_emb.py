@@ -8,6 +8,7 @@ import re, math
 from adjustText import adjust_text
 import json
 from sklearn.manifold import TSNE
+from sklearn.metrics.pairwise import cosine_similarity as cos_sim
 
 interested_list = [
     'Kik',
@@ -89,8 +90,11 @@ def main():
     word_index_map = sys.argv[2]
     output_path = sys.argv[3]
     dict_type = 'old'
+    k = 5
     if len(sys.argv) >= 5:
         dict_type = sys.argv[4]
+    if len(sys.argv) >= 6:
+        k = int(sys.argv[5])
     wv, vocabulary = load_embeddings(embeddings_file, word_index_map, dict_type)
 
     tsne = TSNE(n_components=2, random_state=0)
@@ -120,6 +124,12 @@ def main():
             fout.write('$,$'.join([label, str(x), str(y)])+'\n')
     print('finish output app_embedding.txt')
 
+    print('before find first k related')
+    find_first_k_related(sys.argv[1], sys.argv[2], sys.argv[3], dict_type)
+    find_first_k_related(embeddings_file, word_index_map, dict_type=dict_type,
+                        k=k)
+
+
 def get_app_id_to_row_map(train_index_map_path='../data/training/train_index_map.npy'):
     print('before load trian_index_map')
     with open(train_index_map_path, 'r') as f:
@@ -134,6 +144,45 @@ def get_app_id_to_row_map(train_index_map_path='../data/training/train_index_map
             app_id_to_row_map[str(int(app_id))] = int(row_id)
         row_id += 1
     return app_id_to_row_map
+
+def find_first_k_related(emb_file_path='../save_vector/app_vector.npy',
+                        word_index_map='../data/training/app_index_map',
+                        output_file_path='./best_k_similar.txt', 
+                        dict_type='old', 
+                        k=5):
+    wv, vocabulary = load_embeddings(emb_file_path, word_index_map, dict_type)
+
+    tsne = TSNE(n_components=2, random_state=0)
+    np.set_printoptions(suppress=True)
+    Y = tsne.fit_transform(wv)
+    app_emb_dict = {}
+    for label, x, y in zip(vocabulary, Y[:, 0], Y[:, 1]):
+        # adhoc prevent unicode error
+        app_emb_dict[label] = [x, y]
+    
+    with codecs.open(output_file_path, 'w', 'utf-8') as f_out:
+        for app_name in interested_list:
+            if app_name not in app_emb_dict:
+                continue
+            else:
+                top_k_similar_app_list = ['']*k
+                for i in range(0, k):
+                    max_cos = -1
+                    max_app_name = ''
+                    for eva_app_name in app_emb_dict:
+                        if eva_app_name == app_name or eva_app_name in top_k_similar_app_list:
+                            continue
+                        now_cos = cos_sim(app_emb_dict[app_name], 
+                                          app_emb_dict[eva_app_name])[0][0]
+                        print('now_cos', now_cos)
+                        if now_cos > max_cos:
+                            max_cos = now_cos
+                            max_app_name = eva_app_name
+                    top_k_similar_app_list[i] = max_app_name
+                f_out.write(app_name + ':' + ' $,$ '.join(top_k_similar_app_list) + '\n')
+                
+    return
+
 
 def load_embeddings(emb_file, voc_file, dict_type):
 
