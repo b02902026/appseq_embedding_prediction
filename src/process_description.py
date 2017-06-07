@@ -12,7 +12,6 @@ def dump_dict(obj,file_name):
 def load_json(json_path):
     description_dict = {}
     for files in os.listdir(json_path):
-        print(files)
         if files != 'popular.json':
             continue
         files  = json_path + files
@@ -90,9 +89,52 @@ def get_padding(app2desc, vocab):
     print('maxlen',maxlen)
     return maxlen, app2desc
 
+def load_pretrain(old_desc_dict, app2idx):
+    VEC_DIR = 'glove_dir/glove.6B.100d.txt'
+    # change the key
+    desc_dict = {app2idx[k]:v for k,v in old_desc_dict.items()}
+        
+    # load pretrainrd Glove
+    pretrain = {}
+    with open(VEC_DIR,'r') as f:
+        for line in f:
+            line = line.strip().split()
+            vec = [float(i) for i in line[1:]]
+            pretrain[line[0]] = np.array(vec)
+    
+    # get all words' vectors
+    emb_size = len(list(pretrain.values())[0])
+    print('emb size is',emb_size)
+    maxL = 0
+    for key in desc_dict.keys():
+        new_desc = []
+        #if maxL < desc_dict[key]:
+        maxL += len(desc_dict[key])
+        for word in desc_dict[key]:
+            if word in pretrain:
+                new_desc.append(pretrain[word])
+            elif word != ' ':
+                #print(word+' not in Glove.')
+                new_desc.append(np.zeros(emb_size))
+
+        desc_dict[key] = new_desc[:]
+    # get the average length
+    maxL /= len(list(desc_dict.keys()))
+    maxL = int(maxL)
+    print("average length of description is {}".format(maxL))
+    # padding
+    for key in desc_dict.keys():
+        desc_dict[key] = desc_dict[key][:maxL]
+        while len(desc_dict[key]) < maxL:
+            desc_dict[key].append(np.zeros(emb_size))
+        desc_dict[key] = np.asarray(desc_dict[key]).reshape((maxL,emb_size))
+    del pretrain
+    return [desc_dict, maxL]
 
 if __name__ == "__main__":
-    d = load_json('./data/')
+    d = load_json('../data/')
+    w2v = load_pretrain(d)
+    print(w2v)
     v = make_vocab(d)
     #print(v)
     print("v size:",len(v))

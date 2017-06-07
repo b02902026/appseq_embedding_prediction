@@ -6,8 +6,8 @@ from keras.layers import Dense, Embedding
 import tensorflow as tf
 import keras.backend.tensorflow_backend as KTF
 from keras import backend as K
-
-from process_description import load_json, make_vocab, word2idx, get_padding
+from keras.optimizers import RMSprop, Adam
+from process_description import *
 from description_model import build_desc_model
 from emb_model import build_model
 import data_utility
@@ -25,12 +25,15 @@ def dump_np(np_arr, file_name):
         np.savetxt(f, np_arr)
     return
 
-def process_desc(app2idx):
+def process_desc(app2idx, pretrain=False):
     d = load_json('../data/')
+    w2v = {}
+    if pretrain:
+        w2v, maxlen = load_pretrain(d, app2idx)
     v, _ = make_vocab(d)
     h = word2idx(d,v,app2idx)
     maxlen, h2 = get_padding(h,v)
-    return [h2,len(v),maxlen,v]
+    return [h2,len(v),maxlen,v, w2v]
 
 def train_main(opts):
     K.clear_session()
@@ -53,9 +56,12 @@ def train_main(opts):
 
     with open(map_path + 'index_app_map','r',encoding='utf-8', errors='ignore') as f:
         idx2app = json.load(f)
-
-    desc_map,desc_vocab_size,desc_maxlen, vocab = process_desc(app2idx)
+    use_pretrain = True
+    desc_map,desc_vocab_size,desc_maxlen, vocab, w2v = \
+            process_desc(app2idx,use_pretrain)
     print('desc vocab size:',desc_vocab_size)
+    if use_pretrain:
+        desc_map = w2v
     short_proceed_list,short_context_list, proceed_desc_list, context_desc_list = [],[],[],[]
     short_label_list = []
     save_idx=[]
@@ -77,13 +83,15 @@ def train_main(opts):
     context_desc_list = np.asarray(context_desc_list)
     short_proceed_list = np.asarray(short_proceed_list)
     short_context_list = np.asarray(short_context_list)
+    print(proceed_desc_list.shape)
+    print(context_desc_list.shape)
     #print('# train :',len(short_proceed_list))
     #print('shapes',proceed_desc_list[0],context_desc_list[0],short_proceed_list[0],short_context_list[0])
     #---------------------------
     print('building model...')
     model = build_desc_model(opts,desc_maxlen,desc_vocab_size)
     model.summary()
-    model.compile(optimizer='rmsprop',
+    model.compile(optimizer=Adam(),
                 loss='binary_crossentropy',
                 metrics=['accuracy'])
 
@@ -91,12 +99,12 @@ def train_main(opts):
     print('starting training')
 
     model.fit([short_proceed_list, short_context_list, proceed_desc_list, context_desc_list], short_label_list, batch_size=256,
-              epochs=500, verbose=1, callbacks=None, shuffle=True)
+              epochs=700, verbose=1, callbacks=None, shuffle=True)
 
 
     model.save_weights('../model/app_embedding_weight.hd5')
 
-    embedding_weight = model.layers[4].get_weights()
+    embedding_weight = model.layers[3].get_weights()
     print(embedding_weight)
     print('shape of embedding_weight is {}'.format(embedding_weight[0].shape))     
 

@@ -8,7 +8,7 @@ import tensorflow as tf
 import numpy as np
 window_size = [2,3,5]
 
-def build_desc_model(opts,desc_maxlen,vocab_size,batch_size, mode='train'):
+def build_desc_model(opts,desc_maxlen,vocab_size,use_pretrain=False, mode='train'):
 
     #embedding_layer = Embedding(output_dim=100, input_dim=opts['vocab_size'])
     name_embedding = Dense(100,use_bias=False, name='name_embedding')
@@ -20,10 +20,14 @@ def build_desc_model(opts,desc_maxlen,vocab_size,batch_size, mode='train'):
     #context_emb = Flatten()(context_emb)
     # incorporate desc information (using cnn)
     embedding_desc = Embedding(output_dim=100, input_dim=vocab_size, name='desc_embedding')
-    proceed_desc_input = Input(shape=(desc_maxlen,),name='desc_proceed')
-    context_desc_input = Input(shape=(desc_maxlen,),name='desc_context')
-    proceed_desc_emb = embedding_desc(proceed_desc_input)
-    context_desc_emb = embedding_desc(context_desc_input)
+    proceed_desc_input = Input(shape=(desc_maxlen,100),name='desc_proceed')
+    context_desc_input = Input(shape=(desc_maxlen,100),name='desc_context')
+    if use_pretrain:
+        proceed_desc_emb = proceed_desc_input
+        context_desc_emb = context_desc_input
+    else:
+        proceed_desc_emb = embedding_desc(proceed_desc_input)
+        context_desc_emb = embedding_desc(context_desc_input)
     # feed desc to cnn
     proc_conv, context_conv = [], []
     for window in window_size:
@@ -50,7 +54,10 @@ def build_desc_model(opts,desc_maxlen,vocab_size,batch_size, mode='train'):
 
     p = concatenate([cnn_p_out, proceed_emb], axis=-1)
     c = concatenate([cnn_c_out, context_emb], axis=-1)
-
+    # project to 2-dim
+    #projection = Dense(2, activation='relu', name='projectin')
+    #p = projection(p)
+    #c = projection(c)
     # merge two apps
     output = dot([p, c],axes=-1,normalize=True)
     #dot_result = merge([p,c], mode='mul',dot_axes = -1)
