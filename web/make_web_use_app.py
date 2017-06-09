@@ -5,6 +5,15 @@ import json
 import numpy as np
 from sklearn.manifold import TSNE
 
+def get_interest_list_from_popular(file_path):
+    interest_list = []
+    with open(file_path, 'r') as f:
+        obj_list = json.loads(f)
+        for obj in obj_list:
+            interest_list.append(obj['title'])
+    print(interest_list)
+    return interest_list
+
 INTEREST_LIST = [
     'Kik',
     'LINE: Free Calls & Messages',
@@ -24,6 +33,8 @@ INTEREST_LIST = [
     "Facebook",
     "Instagram"
 ]
+
+INTEREST_LIST = get_interest_list_from_popular("../data/popular.json")
 
 # show default usage to simply use
 if len(sys.argv) != 6:
