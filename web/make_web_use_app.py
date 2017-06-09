@@ -5,6 +5,24 @@ import json
 import numpy as np
 from sklearn.manifold import TSNE
 
+INTEREST_LIST = [
+    'Kik',
+    'LINE: Free Calls & Messages',
+    'Skype - free IM & video calls',
+    'Messenger',
+    'WhatsUp Messenger',
+    'WeChat',
+    'ZALORA Fashion Shopping',
+    'Uber',
+    'NBA 2K17',
+    'CCleaner',
+    'Cleaner',
+    'Firefox Browser fast & private',
+    'Opera browser - latest news',
+    'Chrome Dev',
+    'UC Browser Mini-Tiny and Fast'
+]
+
 # show default usage to simply use
 if len(sys.argv) != 6:
     print('default usage:')
@@ -59,13 +77,30 @@ app_vector_list = tsne.fit_transform(app_vector_list)
 # make app_to_vector_map
 app_to_vector_map = {}
 for app_name, app_vector in zip(app_name_list, app_vector_list):
+    # 每個 tsne 出來的是 ndarray 要把她變回 python list 才能給 json
     app_to_vector_map[app_name] = [app_vector[0], app_vector[1]]
 del app_vector_list
+
+# output_app_vector_map 是要 output 的
+output_app_vector_map = {}
+
+# 先把 INTEREST_LIST 裡面的加進去
+for app in INTEREST_LIST:
+    try:
+        output_app_vector_map[app] = app_to_vector_map[app]
+    except:
+        pass
+# 再隨便放某幾個，default: 1000 個
+for app in app_vector_map:
+    if app not in output_app_vector_map:
+        output_app_vector_map[app] = app_to_vector_map[app]
+    if len(output_app_vector_map) >= 1000:
+        break
 
 # write to output
 with open(app_emb_text_path, 'w') as f_text, open(app_name_path, 'w') as f_name:
     f_text.write('app_emb = ')
     f_name.write('app_name_list = ')
-    json.dump(app_to_vector_map, f_text)
+    json.dump(output_app_vector_map, f_text)
     json.dump(app_name_list, f_name)
 
