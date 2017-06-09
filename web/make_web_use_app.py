@@ -20,7 +20,9 @@ INTEREST_LIST = [
     'Firefox Browser fast & private',
     'Opera browser - latest news',
     'Chrome Dev',
-    'UC Browser Mini-Tiny and Fast'
+    'UC Browser Mini-Tiny and Fast',
+    "Facebook",
+    "Instagram"
 ]
 
 # show default usage to simply use
@@ -83,24 +85,30 @@ del app_vector_list
 
 # output_app_vector_map 是要 output 的
 output_app_vector_map = {}
+output_app_name_list = []
 
 # 先把 INTEREST_LIST 裡面的加進去
 for app in INTEREST_LIST:
     try:
         output_app_vector_map[app] = app_to_vector_map[app]
+        output_app_name_list.append(app)
     except:
         pass
 # 再隨便放某幾個，default: 1000 個
-for app in app_vector_map:
+for app in app_to_vector_map:
     if app not in output_app_vector_map:
         output_app_vector_map[app] = app_to_vector_map[app]
+        output_app_name_list.append(app)
     if len(output_app_vector_map) >= 1000:
         break
+
+del app_to_vector_map
+del app_name_list
 
 # write to output
 with open(app_emb_text_path, 'w') as f_text, open(app_name_path, 'w') as f_name:
     f_text.write('app_emb = ')
     f_name.write('app_name_list = ')
     json.dump(output_app_vector_map, f_text)
-    json.dump(app_name_list, f_name)
+    json.dump(output_app_name_list, f_name)
 
