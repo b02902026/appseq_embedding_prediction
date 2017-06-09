@@ -8,9 +8,9 @@ from sklearn.manifold import TSNE
 def get_interest_list_from_popular(file_path):
     interest_list = []
     with open(file_path, 'r') as f:
-        obj_list = json.loads(f)
+        obj_list = json.load(f)
         for obj in obj_list:
-            interest_list.append(obj['title'])
+            interest_list.append(obj['app_title'])
     print(interest_list)
     return interest_list
 
@@ -98,20 +98,14 @@ del app_vector_list
 output_app_vector_map = {}
 output_app_name_list = []
 
-# 先把 INTEREST_LIST 裡面的加進去
+# 把 INTEREST_LIST 裡面的加進去
 for app in INTEREST_LIST:
-    try:
-        output_app_vector_map[app] = app_to_vector_map[app]
-        output_app_name_list.append(app)
-    except:
-        pass
-# 再隨便放某幾個，default: 1000 個
-for app in app_to_vector_map:
-    if app not in output_app_vector_map:
-        output_app_vector_map[app] = app_to_vector_map[app]
-        output_app_name_list.append(app)
-    if len(output_app_vector_map) >= 1000:
-        break
+    if app not in output_app_name_list:
+        try:
+            output_app_vector_map[app] = app_to_vector_map[app]
+            output_app_name_list.append(app)
+        except:
+            pass
 
 del app_to_vector_map
 del app_name_list
